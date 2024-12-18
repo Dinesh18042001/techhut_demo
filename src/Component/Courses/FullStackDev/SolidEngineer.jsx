@@ -10,40 +10,40 @@ export default function SolidEngineer() {
       case 1:
         return (
           <div className="month-info-card-info mt-4">
-            <p>Programming Language Fundamentals</p>
+            <p>Module 1 : Introduction to Web Development</p>
             <ul className="mt-4">
               <li className="mb-2">
-                <p>Introduction to Java</p>
+                <p> HTML & CSS Basics</p>
               </li>
               <li className="mb-2">
-                <p>Input Output and Data Types</p>
+                <p>Responsive Design </p>
               </li>
               <li className="mb-2">
-                <p>Operators</p>
+                <p>avaScript Fundamentals </p>
               </li>
               <li className="mb-2">
-                <p>Conditions</p>
+                <p>DOM Manipulation  </p>
               </li>
               <li className="mb-2">
-                <p>Loops</p>
+                <p>Version Control (Git) </p>
               </li>
               <li className="mb-2">
-                <p>Pattern Problems</p>
+                <p> Forms & Validation  </p>
               </li>
               <li className="mb-2">
-                <p>Functions</p>
+                <p> Introduction to Web Accessibility</p>
               </li>
               <li className="mb-2">
-                <p>1D and 2D Arrays</p>
+                <p>Browser Developer Tools</p>
               </li>
               <li className="mb-2">
-                <p>Strings</p>
+                <p>Basic SEO Principles</p>
               </li>
               <li className="mb-2">
-                <p>Memory Management</p>
+                <p> Introduction to Web Hosting </p>
               </li>
               <li className="mb-4">
-                <p>Basic OOP for Problem Solving</p>
+                <p> Creating Simple Web Pages </p>
               </li>
             </ul>
           </div>
@@ -51,40 +51,40 @@ export default function SolidEngineer() {
       case 2:
         return (
           <div className="month-info-card-info mt-4">
-            <p>Data Structures and Algorithms</p>
+            <p>Advanced Front-End Development</p>
             <ul className="mt-4">
               <li className="mb-2">
-                <p> Arrays</p>
+                <p>JavaScript ES6</p>
               </li>
               <li className="mb-2">
-                <p>Linked Lists</p>
+                <p>ReactJS Basics </p>
               </li>
               <li className="mb-2">
-                <p>Stacks</p>
+                <p>React Hooks & State Management  </p>
               </li>
               <li className="mb-2">
-                <p>Queues</p>
+                <p> React Router & Navigation  </p>
               </li>
               <li className="mb-2">
-                <p>Trees</p>
+                <p>CSS Frameworks (Bootstrap/Tailwind)  </p>
               </li>
               <li className="mb-2">
-                <p>Graphs</p>
+                <p>Front-End Testing (Jest) </p>
               </li>
               <li className="mb-2">
-                <p>Hashing</p>
+                <p>REST API Integration  </p>
               </li>
               <li className="mb-2">
-                <p>Sorting Algorithms</p>
+                <p>Component Lifecycle in React </p>
               </li>
               <li className="mb-2">
-                <p> Searching Algorithms</p>
+                <p>Error Handling & Debugging  </p>
               </li>
               <li className="mb-2">
-                <p>Recursion</p>
+                <p>State Management with Redux</p>
               </li>
               <li className="mb-4">
-                <p>Dynamic Programming</p>
+                <p>Optimizing Front-End Performance</p>
               </li>
             </ul>
           </div>
@@ -92,40 +92,40 @@ export default function SolidEngineer() {
       case 3:
         return (
           <div className="month-info-card-info mt-4">
-            <p>SQL/MongoDB</p>
+            <p>Back-End Development</p>
             <ul className="mt-4">
               <li className="mb-2">
-                <p>Database Basics</p>
+                <p>Node.js Introduction</p>
               </li>
               <li className="mb-2">
-                <p>Data Types in SQL</p>
+                <p> Express.js Framework</p>
               </li>
               <li className="mb-2">
-                <p>Basic SQL Queries</p>
+                <p>RESTful APIs </p>
               </li>
               <li className="mb-2">
-                <p>Joins</p>
+                <p>Authentication & Authorization (JWT, OAuth)</p>
               </li>
               <li className="mb-2">
-                <p>Aggregate Functions</p>
+                <p>Back-End Testing (Mocha)</p>
               </li>
               <li className="mb-2">
-                <p>Inserting and Modifying Data</p>
+                <p>Asynchronous Programming (Promises, Async/Await)</p>
               </li>
               <li className="mb-2">
-                <p>Subqueries</p>
+                <p>Middleware & Error Handling </p>
               </li>
               <li className="mb-2">
-                <p>Constraints and Indexing</p>
+                <p>File Handling & Uploads</p>
               </li>
               <li className="mb-2">
-                <p>Transactions and ACID Properties</p>
+                <p>Session Management</p>
               </li>
               <li className="mb-2">
-                <p> SQL Views</p>
+                <p>Caching Strategies</p>
               </li>
               <li className="mb-4">
-                <p>MongoDB (NoSQL)</p>
+                <p>WebSocket for Real-Time Communication</p>
               </li>
             </ul>
           </div>
@@ -133,40 +133,40 @@ export default function SolidEngineer() {
       case 4:
         return (
           <div className="month-info-card-info mt-4">
-            <p>LLD and Project Specialisations</p>
+            <p>Database Management</p>
             <ul className="mt-4">
               <li className="mb-2">
-                <p>Low-Level Design (LLD)</p>
+                <p>SQL Databases (MySQL/PostgreSQL)</p>
               </li>
               <li className="mb-2">
-                <p>Object-Oriented Design (OOD) Principles</p>
+                <p>NoSQL Databases (MongoDB)</p>
               </li>
               <li className="mb-2">
-                <p> UML Diagrams</p>
+                <p>Database Design & Relationships</p>
               </li>
               <li className="mb-2">
-                <p>Design Patterns</p>
+                <p> CRUD Operations</p>
               </li>
               <li className="mb-2">
-                <p>Class Design</p>
+                <p> Database Security  </p>
               </li>
               <li className="mb-2">
-                <p>Designing APIs</p>
+                <p>Data Normalization & Indexing  </p>
               </li>
               <li className="mb-2">
-                <p>Modular Design</p>
+                <p>Advanced Querying & Aggregations</p>
               </li>
               <li className="mb-2">
-                <p>Concurrency and Multithreading</p>
+                <p>Database Migrations & Seeders </p>
               </li>
               <li className="mb-2">
-                <p>Data Structures in LLD</p>
+                <p>Connection Pools & Query Optimization  </p>
               </li>
               <li className="mb-2">
-                <p> Error Handling and Logging</p>
+                <p>Data Backup & Recovery</p>
               </li>
               <li className="mb-4">
-                <p>Web Development Projects</p>
+                <p>Database Performance Tuning</p>
               </li>
             </ul>
           </div>
@@ -174,40 +174,40 @@ export default function SolidEngineer() {
       case 5:
         return (
           <div className="month-info-card-info mt-4">
-            <p>System Design Essentials</p>
+            <p>DevOps & Deployment</p>
             <ul className="mt-4">
               <li className="mb-2">
-                <p> Overview of System Design</p>
+                <p>Server & Hosting Basics </p>
               </li>
               <li className="mb-2">
-                <p>Key Components in System Design</p>
+                <p>Docker Containers</p>
               </li>
               <li className="mb-2">
-                <p> Scalability and Performance</p>
+                <p> Continuous Integration & Deployment  </p>
               </li>
               <li className="mb-2">
-                <p>Availability and Reliability</p>
+                <p>Cloud Platforms (AWS, Heroku)  </p>
               </li>
               <li className="mb-2">
-                <p>Security</p>
+                <p>Application Monitoring & Logging </p>
               </li>
               <li className="mb-2">
-                <p>Distributed Systems</p>
+                <p>Nginx & Apache Configuration  </p>
               </li>
               <li className="mb-2">
-                <p>Eventual Consistency</p>
+                <p>SSL Certificates & HTTPS</p>
               </li>
               <li className="mb-2">
-                <p>Trade-offs in System Design</p>
+                <p>Load Balancing & Scalability</p>
               </li>
               <li className="mb-2">
-                <p>Case Studies and Practical Examples</p>
+                <p> Environment Variables & Secrets Management</p>
               </li>
               <li className="mb-2">
-                <p>Designing a Social Media Feed</p>
+                <p> Automating Deployments with Jenkins  </p>
               </li>
               <li className="mb-4">
-                <p>Designing a Scalable E-commerce System</p>
+                <p>Managing Multi-Environment Deployments</p>
               </li>
             </ul>
           </div>
@@ -215,40 +215,37 @@ export default function SolidEngineer() {
       case 6:
         return (
           <div className="month-info-card-info mt-4">
-            <p>Electives</p>
+            <p> Full Stack Project Development </p>
             <ul className="mt-4">
               <li className="mb-2">
-                <p>Advanced Programming Languages</p>
+                <p>GitHub Portfolio Creation  </p>
               </li>
               <li className="mb-2">
-                <p>Mobile Application Development</p>
+                <p> Interview Preparation  </p>
               </li>
               <li className="mb-2">
-                <p>Web Development Frameworks</p>
+                <p>Resume Building</p>
               </li>
               <li className="mb-2">
-                <p>Cybersecurity Fundamentals</p>
+                <p>Soft Skills Training </p>
               </li>
               <li className="mb-2">
-                <p>Cloud Computing and DevOps</p>
+                <p>Problem-Solving Techniques</p>
               </li>
               <li className="mb-2">
-                <p> Artificial Intelligence and Machine Learning</p>
+                <p>Mock Interviews </p>
               </li>
               <li className="mb-2">
-                <p>Data Science and Big Data</p>
+                <p>Collaborative Development & Team Projects  </p>
               </li>
               <li className="mb-2">
-                <p>User Experience (UX) and User Interface (UI) Design</p>
+                <p>Freelancing & Remote Work Tips  </p>
               </li>
               <li className="mb-2">
-                <p>Internet of Things (IoT)</p>
+                <p>Networking & Building Industry Connections</p>
               </li>
               <li className="mb-2">
-                <p> Blockchain Technology</p>
-              </li>
-              <li className="mb-4">
-                <p>Game Development</p>
+                <p>Building a Personal Brand in Tech  </p>
               </li>
             </ul>
           </div>
@@ -291,17 +288,17 @@ export default function SolidEngineer() {
                       <div className="fundamentals-box-card-info">
                         <p>Module</p>
                         <h6>
-                          {module === 1 && "Programming Language Fundamentals"}
-                          {module === 2 && "Data Structures and Algorithms"}
-                          {module === 3 && "SQL/MongoDB"}
-                          {module === 4 && "LLD and Project Specialisations"}
-                          {module === 5 && "System Design Essentials"}
-                          {module === 6 && "Electives"}
+                          {module === 1 && "Introduction to Web Development"}
+                          {module === 2 && "Advanced Front-End Development"}
+                          {module === 3 && " Back-End Development"}
+                          {module === 4 && "Database Management "}
+                          {module === 5 && "DevOps & Deployment "}
+                          {module === 6 && " Final Project & Career Preparation"}
                         </h6>
                       </div>
                     </div>
                     <div className="months-logo">
-                      <p>2 Months</p>
+                      <p>1 Month</p>
                     </div>
                   </div>
                 </a>
@@ -312,8 +309,8 @@ export default function SolidEngineer() {
                 <a
                   type="button"
                   className="btn btn-primary"
-                  data-bs-toggle="modal"
-                  data-bs-target="#downloadCurriculumModal"
+                  // data-bs-toggle="modal"
+                  // data-bs-target="#downloadCurriculumModal"
                 >
                   Download Curriculum{" "}
                   <i className="fa-solid fa-download ms-2"></i>
@@ -325,7 +322,7 @@ export default function SolidEngineer() {
             <div className="col-lg-6">
               <div className="month-info-card">
                 <div className="month-info-tittle">
-                  <h6 className="text-center">2 Months</h6>
+                  <h6 className="text-center">1 Month</h6>
                   <p className="text-center">
                     *A learner can do as many electives as they want, but only
                     after completion of Core Curriculum.

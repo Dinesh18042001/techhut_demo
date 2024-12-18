@@ -8,12 +8,12 @@ export default function TechProfessionals() {
         <div className="container">
           <div className="techprofessionals-section-tittle mb-5">
             <h2 className="text-center">
-              Join A Community Of <span>10000+</span> Tech Professionals
+            Join a Thriving Community of <span>10,000+</span> Tech Professionals
+
             </h2>
             <p className="text-center">
               <span>Meet and grow together</span> with a community of
-              passionate developers who have taken their careers to new heights
-              with TechHut.
+              Connect, collaborate, and grow with a network of ambitious mentors who will help you transform your career through TechHut’s programs.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ export default function TechProfessionals() {
               </div> */}
             </div>
           </div>
-          <TechCard/>
+          {/* <TechCard/> */}
         </div>
       </div>
     </>

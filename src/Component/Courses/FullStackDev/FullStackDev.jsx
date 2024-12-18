@@ -14,10 +14,9 @@ export default function FullStackDev() {
       <div style={{marginBottom : "80px", marginTop: "50px"}}>
       <Companies/>
       </div>
-     
-      <Market/>
-      <TechProfessionals/>
       <SolidEngineer/>
+      <TechProfessionals/>
+      <Market/>
       <TechCareer/>
       <Questions/>
       

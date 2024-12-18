@@ -225,37 +225,35 @@ export default function Header() {
             </li>
             
             <li className="nav-item dropdown">
-              <Link
-                className="nav-link dropdown-toggle"
-                to="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Courses
-              </Link>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    id="toggle-tab"
-                    to="/fullstackdevelopment"
-                  >
-                    full stack development
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="dropdown-item"
-                    to="/digitalmarketingdevelopment"
-                    id="toggle-tab"
-                  >
-                    Digital Marketer
-                  </Link>
-                </li>
-              </ul>
-            </li>
+                <Link
+                  className="nav-link dropdown-toggle"
+                  to="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Courses
+                </Link>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <Link className="dropdown-item" to="/fullstackdevelopment">
+                      full stack development
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="dropdown-item"
+                      to="/digitalmarketingdevelopment"
+                      style={{ pointerEvents: "none", color: "gray" }}
+                    >
+                      Digital Marketing
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+
+
             <li className="nav-item">
               <Link className="nav-link" to="#career" id="toggle-tab">
                 Features

@@ -83,22 +83,23 @@ export default function FullStackBanner() {
           <div className="row align-items-center">
             <div className="col-lg-7 mb-5">
               <div className="fullstackdev-banner-info">
-                <h1>Learn like you would at India’s Top tech companies</h1>
+                <h1>Transform Your Career with Industry-Leading Full Stack Development Training</h1>
                 <div className="line-img mb-4">
                   {/* <img src="./assets/banner/line-img.png" alt="" /> */}
                 </div>
                 <h6>
-                  Work-experience based learning programs to land your dream tech job
+                Unlock your potential as a Full Stack Developer with a comprehensive program designed to equip you with the skills to excel in the tech industry.
                 </h6>
                 <div className="para-info mt-4">
                   <p className="mb-3">
-                    <strong>Build </strong>professional projects like the top 1% tech professionals.
+                    <strong>Hands-On Projects</strong> : Build real-world applications to showcase in your portfolio.
                   </p>
                   <p className="mb-3">
-                    <strong>Master</strong> the latest Fullstack/Backend/Automation tech with real work-ex.
+                    <strong>Job-Ready Skills</strong> : Learn technologies that top companies demand.
+
                   </p>
                   <p className="mb-3">
-                    <strong>Crack</strong> your dream role at the best tech companies
+                    <strong>Career Support</strong> : Benefit from interview prep and guidance to land your dream job.
                   </p>
                 </div>
 

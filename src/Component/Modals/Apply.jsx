@@ -410,7 +410,7 @@ export default function Apply() {
                 <h5 className="modal-title" id="exampleModalLabel">
                   Apply now
                 </h5>
-                <p>Next Batch Starts in November</p>
+                {/* <p>Next Batch Starts in November</p> */}
               </div>
               <button
                 type="button"

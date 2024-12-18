@@ -7,17 +7,10 @@ export default function TechCareer() {
         <div className="container">
           <div className="techcareer-section-tittle text-center">
             <h2>
-              An All-round Effective Way to Supercharge your{" "}
-              <span>Tech Career</span>
+            A Comprehensive Way to Boost Your <span>Tech Career</span>
             </h2>
             <p>
-              {" "}
-              <span>Hands-on, work experience-based learning</span> is at the
-              heart of everything you do at Crio. Build software projects like
-              the top 1% Tech Professionals and{" "}
-              <span>learn all the skills</span> you need to{" "}
-              <span>land the best</span> Fullstack/Backend Developers or SDET
-              Jobs.
+            Experience hands-on, work-based learning designed to elevate your skills and career. Build cutting-edge software projects and gain expertise like the top 1% of Tech Professionals, securing top <span>Fullstack/Backend Developer</span> or SDET jobs
             </p>
           </div>
 
@@ -29,14 +22,11 @@ export default function TechCareer() {
                     <img src="./assets/TechCareer/icon1.png" alt="" />
                   </div>
                   <div className="techcareer-section-card-text">
-                    <h6>Learn by Working like Tech Professionals</h6>
+                    <h6>Learn by Doing, Like a Tech Pro</h6>
                   </div>
                 </div>
                 <p>
-                  Learn Full Stack Development, Backend Development, QA
-                  Automation through an immersive project-based curriculum
-                  focused on practical developer skills and real-world
-                  scenarios.
+                Master Full Stack Development, Backend Development, and QA Automation through a practical, project-focused curriculum rooted in real-world challenges.
                 </p>
               </div>
             </div>
@@ -49,14 +39,12 @@ export default function TechCareer() {
                   </div>
                   <div className="techcareer-section-card-text">
                     <h6>
-                      Gain Work-ex on Problems Given by Real Tech Companies
+                    Work on Projects Inspired by Real Tech Companies
                     </h6>
                   </div>
                 </div>
                 <p>
-                  Gain the work experience of building professional software
-                  products for India’s top tech companies like CRED, Playment,
-                  Jumbotail, Vicara, and others.
+                Acquire experience by developing professional-grade software products for renowned companies like CRED, Playment, Jumbotail, and Vicara.
                 </p>
               </div>
             </div>
@@ -69,14 +57,12 @@ export default function TechCareer() {
                   </div>
                   <div className="techcareer-section-card-text">
                     <h6>
-                      Learn From Seasoned Industry Professionals in Real Time
+                    Learn in Real-Time from Industry Experts
                     </h6>
                   </div>
                 </div>
                 <p>
-                  Participate in activity-based live working sessions
-                  facilitated by industry mentors from companies like Microsoft,
-                  Flipkart, Nilenso.
+                Engage in live, activity-based sessions led by seasoned mentors from top companies like Microsoft, Flipkart, and Nilenso.
                 </p>
               </div>
             </div>
@@ -89,14 +75,12 @@ export default function TechCareer() {
                   </div>
                   <div className="techcareer-section-card-text">
                     <h6>
-                      Get career support to break through into ambitious roles
+                    Break Into Ambitious Roles with Career Support
                     </h6>
                   </div>
                 </div>
                 <p>
-                  Be prepared for every interview and land exciting development
-                  jobs with structured planning and personalised guidance &
-                  support from Crio career coaches.
+                Prepare for interviews and land your dream job with structured planning, personalized guidance, and comprehensive support from expert career coaches.
                 </p>
               </div>
             </div>
@@ -108,13 +92,11 @@ export default function TechCareer() {
                     <img src="./assets/TechCareer/icon5.png" alt="" />
                   </div>
                   <div className="techcareer-section-card-text">
-                    <h6>Build a GitHub portfolio that impresses recruiters</h6>
+                    <h6>Impress Recruiters with a Stellar GitHub Portfolio</h6>
                   </div>
                 </div>
                 <p>
-                  Go beyond just certificates with a Crio verified project
-                  portfolio on GitHub and impress any recruiter at a product
-                  based company with your skills and experience.
+                Showcase your Crio-verified project portfolio on GitHub. Stand out to recruiters at top product-based companies with your demonstrated skills and real-world experience.
                 </p>
               </div>
             </div>
@@ -126,13 +108,11 @@ export default function TechCareer() {
                     <img src="./assets/TechCareer/icon6.png" alt="" />
                   </div>
                   <div className="techcareer-section-card-text">
-                    <h6>Build a GitHub portfolio that impresses recruiters</h6>
+                    <h6>Gain Practical Experience in a Collaborative Environment</h6>
                   </div>
                 </div>
                 <p>
-                  Go beyond just certificates with a Crio verified project
-                  portfolio on GitHub and impress any recruiter at a product
-                  based company with your skills and experience.
+                Work on real-time projects, simulating real-world collaboration, communication, and teamwork to better prepare for the dynamic workplace.
                 </p>
               </div>
             </div>

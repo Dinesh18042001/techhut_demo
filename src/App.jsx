@@ -27,6 +27,16 @@ import { BackToTop } from './Component/BackToTop';
 import Placements from './Component/Placements/Placements';
 import Features from './Component/Features/Features';
 import FooterNav from './Component/FooterNav/FooterNav';
+import FullStackBlog from './Component/BlogDetails/FullStackBlog';
+import DigitalMarketingBlog from './Component/BlogDetails/DigitalMarketingBlog';
+import DigitalDemystifiedBlog from './Component/BlogDetails/DigitalDemystifiedBlog';
+import ProgrammingBlog from './Component/BlogDetails/ProgrammingBlog';
+import PsychologyBlog from './Component/BlogDetails/PsychologyBlog';
+import DigitalMarketingTrendsBlog from './Component/BlogDetails/DigitalMarketingTrendsBlog';
+import LanguageBlog from './Component/BlogDetails/LanguageBlog';
+import RoleDigitalMarketing from './Component/BlogDetails/RoleDigitalMarketing';
+import LayersFullStack from './Component/BlogDetails/LayersFullStack';
+import MasteringFullStackBlog from './Component/BlogDetails/MasteringFullStackBlog';
 
 
 const Layout = () => {
@@ -68,6 +78,16 @@ const router = createBrowserRouter([
       { path: '/digitalmarketingdevelopment', element: <DigitalMarketerMain/>},
       { path: '/placements', element: <Placements/>},
       { path: '/features', element: <Features/>},
+      { path: '/full-stack-development-blog', element: <FullStackBlog/>},
+      { path: '/digital-marketing-blog', element: <DigitalMarketingBlog/>},
+      { path: '/digital-marketing-Demystified-blog', element: <DigitalDemystifiedBlog/>},
+      { path: '/programming-blog', element: <ProgrammingBlog/>},
+      { path: '/psychology-blog', element: <PsychologyBlog/>},
+      { path: '/digital-marketing-trends-blog', element: <DigitalMarketingTrendsBlog/>},
+      { path: '/Language-blog', element: <LanguageBlog/>},
+      { path: '/Role-of-digital-marketing-blog', element: <RoleDigitalMarketing/>},
+      { path: '/layers-full-stack-blog', element: <LayersFullStack/>},
+      { path: '/mastering-full-stack-blog', element: <MasteringFullStackBlog/>},
     ],
   },
 ]);
