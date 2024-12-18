@@ -6,6 +6,7 @@ import TechProfessionals from "./TechProfessionals";
 import SolidEngineer from "./SolidEngineer";
 import TechCareer from "./TechCareer";
 import Questions from "../../Questions";
+import SolidEngineerSmoll from "./SolidEngineerSmoll";
 
 export default function FullStackDev() {
   return (
@@ -15,6 +16,7 @@ export default function FullStackDev() {
       <Companies/>
       </div>
       <SolidEngineer/>
+      <SolidEngineerSmoll/>
       <TechProfessionals/>
       <Market/>
       <TechCareer/>

@@ -259,7 +259,7 @@ export default function SolidEngineer() {
 
   return (
     <>
-      <div className="solidengineer-section">
+      <div className="solidengineer-section d-none d-lg-block">
         <div className="container">
           <div className="solidengineer-section-tittle">
             <h2 className="text-center">
@@ -307,10 +307,10 @@ export default function SolidEngineer() {
               {/* Download Curriculum button */}
               <div className="fundamentals-box-btn text-center">
                 <a
+                 href="assets/pdf/TechHut.pdf"
+                 download="Curriculum.pdf" 
                   type="button"
                   className="btn btn-primary"
-                  // data-bs-toggle="modal"
-                  // data-bs-target="#downloadCurriculumModal"
                 >
                   Download Curriculum{" "}
                   <i className="fa-solid fa-download ms-2"></i>
