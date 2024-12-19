@@ -30,11 +30,7 @@ export default function SolidEngineerSmoll() {
               <Accordion.Body>
                 <div className="body">
                   <div className="accordion-body-tittle">
-                    <h5 className="text-center">1 Month</h5>
-                    <p className="text-center">
-                      *A learner can do as many electives as they want, but only
-                      after completion of Core Curriculum.
-                    </p>
+                    <h5 className="text-center mb-0">1 Month</h5>
                   </div>
                   <div className="accordion-body-info mt-3">
                     <h5>Module 1 : Introduction to Web Development</h5>
@@ -71,11 +67,8 @@ export default function SolidEngineerSmoll() {
               <Accordion.Body>
                 <div className="body">
                   <div className="accordion-body-tittle">
-                    <h5 className="text-center">1 Month</h5>
-                    <p className="text-center">
-                      *A learner can do as many electives as they want, but only
-                      after completion of Core Curriculum.
-                    </p>
+                    <h5 className="text-center mb-0">1 Month</h5>
+                    
                   </div>
                   <div className="accordion-body-info mt-3">
                     <h5>Module 2 : Advanced Front-End Development</h5>
@@ -113,11 +106,8 @@ export default function SolidEngineerSmoll() {
               <Accordion.Body>
                 <div className="body">
                   <div className="accordion-body-tittle">
-                    <h5 className="text-center">1 Month</h5>
-                    <p className="text-center">
-                      *A learner can do as many electives as they want, but only
-                      after completion of Core Curriculum.
-                    </p>
+                    <h5 className="text-center mb-0">1 Month</h5>
+                   
                   </div>
                   <div className="accordion-body-info mt-3">
                     <h5>Module 3 : Back-End Development</h5>
@@ -154,11 +144,8 @@ export default function SolidEngineerSmoll() {
               <Accordion.Body>
                 <div className="body">
                   <div className="accordion-body-tittle">
-                    <h5 className="text-center">1 Month</h5>
-                    <p className="text-center">
-                      *A learner can do as many electives as they want, but only
-                      after completion of Core Curriculum.
-                    </p>
+                    <h5 className="text-center mb-0">1 Month</h5>
+                   
                   </div>
                   <div className="accordion-body-info mt-3">
                     <h5>Module 4 : Database Management</h5>
@@ -195,11 +182,8 @@ export default function SolidEngineerSmoll() {
               <Accordion.Body>
                 <div className="body">
                   <div className="accordion-body-tittle">
-                    <h5 className="text-center">1 Month</h5>
-                    <p className="text-center">
-                      *A learner can do as many electives as they want, but only
-                      after completion of Core Curriculum.
-                    </p>
+                    <h5 className="text-center mb-0">1 Month</h5>
+                   
                   </div>
                   <div className="accordion-body-info mt-3">
                     <h5>Module 5 : DevOps & Deployment</h5>
@@ -236,11 +220,7 @@ export default function SolidEngineerSmoll() {
               <Accordion.Body>
                 <div className="body">
                   <div className="accordion-body-tittle">
-                    <h5 className="text-center">1 Month</h5>
-                    <p className="text-center">
-                      *A learner can do as many electives as they want, but only
-                      after completion of Core Curriculum.
-                    </p>
+                    <h5 className="text-center mb-0">1 Month</h5>
                   </div>
                   <div className="accordion-body-info mt-3">
                     <h5>Module 6 : Final Project & Career Preparation</h5>

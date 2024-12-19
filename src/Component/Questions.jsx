@@ -35,7 +35,7 @@ export default function Questions() {
                         aria-expanded="true"
                         aria-controls="collapseOne"
                       >
-                       <h6>Do I need any prior experience to join TechHut?</h6> 
+                       <h6>What courses does TechHut Academy offer?</h6> 
                       </button>
                     </h2>
                     <div
@@ -46,9 +46,7 @@ export default function Questions() {
                     >
                       <div className="accordion-body">
                         <p>
-                          No prior experience is required! TechHut is designed
-                          for learners of all levels. Our mentors will guide you
-                          from the basics to advanced topics, ensuring you’re well-prepared.
+                        TechHut Academy provides courses of <strong>Full Stack Development</strong> and <strong>Digital Marketing</strong>
                         </p>
                       </div>
                     </div>
@@ -65,7 +63,7 @@ export default function Questions() {
                         aria-expanded="false"
                         aria-controls="collapseTwo"
                       >
-                       <h6>How Long Does It Take to See Progress with a Mentor?</h6>
+                       <h6>Are the courses suitable for beginners?</h6>
                       </button>
                     </h2>
                     <div
@@ -76,7 +74,7 @@ export default function Questions() {
                     >
                       <div className="accordion-body">
                         <p>
-                        You can expect to see progress with a mentor within a few weeks to a few months, depending on your goals and commitment.
+                        <strong>Yes,</strong> all the courses are designed for <strong>beginners,</strong> as well as for the <strong>working professionals.</strong>
                         </p>
                       </div>
                     </div>
@@ -93,8 +91,7 @@ export default function Questions() {
                         aria-expanded="false"
                         aria-controls="collapseThree"
                       >
-                        <h6>Are There Any Certifications Offered Through the Mentorship Program?
-                        </h6>
+                        <h6>What is the duration of each course?</h6>
                       </button>
                     </h2>
                     <div
@@ -105,7 +102,7 @@ export default function Questions() {
                     >
                       <div className="accordion-body">
                         <p>
-                        Yes, the mentorship program provides various certifications to enhance your skills and boost your resume.
+                        Course durations are <strong>6 to 7 Months</strong> but we offer <strong>placement assistance upto 1 year</strong> after that.
                         </p>
                       </div>
                     </div>
@@ -122,7 +119,7 @@ export default function Questions() {
                         aria-expanded="false"
                         aria-controls="collapseFour"
                       >
-                        <h6>What Kind of Projects Will I Work On During the Mentorship?
+                        <h6>Do the courses include hands-on projects?
                         </h6>
                       </button>
                     </h2>
@@ -134,7 +131,7 @@ export default function Questions() {
                     >
                       <div className="accordion-body">
                         <p>
-                        You will work on various projects tailored to your goals, including practical assignments, case studies, and collaborative efforts.
+                        <strong>Yes,</strong> practical projects are incorporated to enhance learning.
                         </p>
                       </div>
                     </div>
@@ -151,7 +148,7 @@ export default function Questions() {
                         aria-expanded="false"
                         aria-controls="collapseFive"
                       >
-                        <h6>Can I Get Career Advice Along with Technical Assistance?</h6>
+                        <h6>Is there a certificate upon course completion?</h6>
                       </button>
                     </h2>
                     <div
@@ -162,7 +159,7 @@ export default function Questions() {
                     >
                       <div className="accordion-body">
                         <p>
-                        Yes, you can receive both career advice and technical assistance in the mentorship program. This dual support helps you navigate your career path while enhancing your technical skills.
+                        <strong>Yes,</strong> certificates are awarded after successfully completing a course.
                         </p>
                       </div>
                     </div>

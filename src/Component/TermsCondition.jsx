@@ -16,7 +16,7 @@ export default function TermsCondition() {
                 <h5 className='mt-3'> Services</h5>
                 <p>We offer various online sessions designed to provide educational content. All descriptions and representations of services are subject to change without notice. We reserve the right to discontinue any service at any time.</p>
                 <h5 className='mt-3'> Payment and Refund Policy</h5>
-                <p>Payment for our services is due at the time of registration. We provide a 100% refund for online sessions if a request is made within 7 days of the session start date. After this period, fees are non-refundable. For duplicate payments, refunds will be processed using the original payment method within 25 working days.</p>
+                <p>Payment for our services is due at the time of registration. We provide a 100% refund for online sessions if a request is made within 7 days of the session start date. After this period, fees are non-refundable.</p>
             </div>
         </div>
     </div>

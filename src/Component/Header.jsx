@@ -163,7 +163,7 @@ export default function Header() {
                 </ul>
               </li> */}
 
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a
                   className="nav-link active"
                   aria-current="page"
@@ -171,7 +171,7 @@ export default function Header() {
                 >
                   Features
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a
                   className="nav-link active"
@@ -273,11 +273,12 @@ export default function Header() {
                 </ul>
               </li> */}
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="#career" id="toggle-tab">
                 Features
               </Link>
-            </li>
+            </li> */}
+
             <li className="nav-item">
               <a className="nav-link" href="#" id="toggle-tab">
                 Placements
@@ -288,6 +289,7 @@ export default function Header() {
                 Blog
               </Link>
             </li>
+            
           </ul>
           {/* Adding the Contact Us button in off-canvas too */}
           <div className="d-flex gap-3 mt-4">

@@ -84,12 +84,7 @@ export default function FullStackBanner() {
             <div className="col-lg-7 mb-5">
               <div className="fullstackdev-banner-info">
                 <h1>Transform Your Career with Industry-Leading Full Stack Development Training</h1>
-                <div className="line-img mb-4">
-                  {/* <img src="./assets/banner/line-img.png" alt="" /> */}
-                </div>
-                <h6>
-                Unlock your potential as a Full Stack Developer with a comprehensive program designed to equip you with the skills to excel in the tech industry.
-                </h6>
+                
                 <div className="para-info mt-4">
                   <p className="mb-3">
                     <strong>Hands-On Projects</strong> : Build real-world applications to showcase in your portfolio.
@@ -107,31 +102,31 @@ export default function FullStackBanner() {
                   <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-5 row-cols-xxl-5 g-3 g-lg-5 justify-content-center">
                     <div className="col col1">
                       <div className="main-count text-center">
-                        <h3>95%</h3>
-                        <p>placed within 9 months of graduation</p>
+                        <h3>70%</h3>
+                        <p>placed within 9 months</p>
                       </div>
                     </div>
                     <div className="col col1">
                       <div className="main-count text-center">
-                        <h3>10 LPA</h3>
+                        <h3>5+ LPA</h3>
                         <p>average dream job CTC</p>
                       </div>
                     </div>
                     <div className="col col1">
                       <div className="main-count text-center">
-                        <h3>21 LPA</h3>
+                        <h3>10+LPA</h3>
                         <p>average super-dream job CTC</p>
                       </div>
                     </div>
                     <div className="col col1">
                       <div className="main-count text-center">
-                        <h3>1000+</h3>
+                        <h3>50+</h3>
                         <p>Hiring Partners</p>
                       </div>
                     </div>
                     <div className="col">
                       <div className="main-count text-center">
-                        <h3>60%</h3>
+                        <h3>50%</h3>
                         <p>Average Salary Hike</p>
                       </div>
                     </div>

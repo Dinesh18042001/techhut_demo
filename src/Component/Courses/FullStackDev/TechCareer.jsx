@@ -22,11 +22,11 @@ export default function TechCareer() {
                     <img src="./assets/TechCareer/icon1.png" alt="" />
                   </div>
                   <div className="techcareer-section-card-text">
-                    <h6>Learn by Doing, Like a Tech Pro</h6>
+                    <h6>Hands-On Learning Experience</h6>
                   </div>
                 </div>
                 <p>
-                Master Full Stack Development, Backend Development, and QA Automation through a practical, project-focused curriculum rooted in real-world challenges.
+                Dive into immersive, project-based courses that equip you with practical skills in software development and digital marketing. 
                 </p>
               </div>
             </div>
@@ -39,12 +39,12 @@ export default function TechCareer() {
                   </div>
                   <div className="techcareer-section-card-text">
                     <h6>
-                    Work on Projects Inspired by Real Tech Companies
+                    Real-World Projects  
                     </h6>
                   </div>
                 </div>
                 <p>
-                Acquire experience by developing professional-grade software products for renowned companies like CRED, Playment, Jumbotail, and Vicara.
+                Build a portfolio of full-stack development projects that showcase your expertise and attract potential employers
                 </p>
               </div>
             </div>
@@ -57,12 +57,12 @@ export default function TechCareer() {
                   </div>
                   <div className="techcareer-section-card-text">
                     <h6>
-                    Learn in Real-Time from Industry Experts
+                    Expert Mentorship  
                     </h6>
                   </div>
                 </div>
                 <p>
-                Engage in live, activity-based sessions led by seasoned mentors from top companies like Microsoft, Flipkart, and Nilenso.
+                Learn from industry professionals and gain insights that bridge the gap between academic knowledge and real-world application. 
                 </p>
               </div>
             </div>
@@ -75,12 +75,12 @@ export default function TechCareer() {
                   </div>
                   <div className="techcareer-section-card-text">
                     <h6>
-                    Break Into Ambitious Roles with Career Support
+                    Career Transformation  
                     </h6>
                   </div>
                 </div>
                 <p>
-                Prepare for interviews and land your dream job with structured planning, personalized guidance, and comprehensive support from expert career coaches.
+                Empower your career with the skills and practical experience needed to excel in today's competitive job market. 
                 </p>
               </div>
             </div>
@@ -92,11 +92,11 @@ export default function TechCareer() {
                     <img src="./assets/TechCareer/icon5.png" alt="" />
                   </div>
                   <div className="techcareer-section-card-text">
-                    <h6>Impress Recruiters with a Stellar GitHub Portfolio</h6>
+                    <h6>Comprehensive Curriculum </h6>
                   </div>
                 </div>
                 <p>
-                Showcase your Crio-verified project portfolio on GitHub. Stand out to recruiters at top product-based companies with your demonstrated skills and real-world experience.
+                Master a wide range of technologies, from HTML5 and CSS3 to JavaScript, React, and Node.js, preparing you for diverse opportunities. 
                 </p>
               </div>
             </div>
@@ -108,11 +108,11 @@ export default function TechCareer() {
                     <img src="./assets/TechCareer/icon6.png" alt="" />
                   </div>
                   <div className="techcareer-section-card-text">
-                    <h6>Gain Practical Experience in a Collaborative Environment</h6>
+                    <h6>Networking for Future Opportunities  </h6>
                   </div>
                 </div>
                 <p>
-                Work on real-time projects, simulating real-world collaboration, communication, and teamwork to better prepare for the dynamic workplace.
+                Connect with industry experts and like-minded peers, building relationships that open doors to exciting career prospects.
                 </p>
               </div>
             </div>

@@ -323,10 +323,10 @@ export default function SolidEngineer() {
               <div className="month-info-card">
                 <div className="month-info-tittle">
                   <h6 className="text-center">1 Month</h6>
-                  <p className="text-center">
+                  {/* <p className="text-center">
                     *A learner can do as many electives as they want, but only
                     after completion of Core Curriculum.
-                  </p>
+                  </p> */}
                 </div>
 
                 {renderModuleInfo()}

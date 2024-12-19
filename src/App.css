@@ -778,7 +778,7 @@ ul.dropdown-menu {
 .mentorship-card {
   border: 1px solid #CBD5E1;
   padding: 15px;
-  height: 265px;
+  height: 185px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.5s;
@@ -1450,6 +1450,7 @@ textarea {
 .fullstackdev-banner-info h1 {
   font-weight: 700;
   font-size: 30px;
+  line-height: 45px;
 }
 
 @media (max-width: 991px) {
@@ -1497,7 +1498,7 @@ textarea {
 
 .fullstackdev-banner-info .main-count h3 {
   font-weight: 700;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .fullstackdev-banner-info .main-count p {
