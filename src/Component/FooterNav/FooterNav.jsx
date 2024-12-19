@@ -83,23 +83,15 @@ export default function FooterNav() {
           </Link>
         </div>
 
+       
         {/* <div className="footer-nav-link">
-          <a href="#">
-            <div className="footer-nav-link-main footer-nav-link-main2 text-center">
-            <img src="./assets/FooterNav/telephone.png" alt="" />
-              <p>Contact</p>
-            </div>
-          </a>
-        </div> */}
-
-        <div className="footer-nav-link">
           <Link to="features">
             <div className="footer-nav-link-main footer-nav-link-main3 text-center">
               <img src="./assets/FooterNav/instructor.png" alt="" />
               <p className="mt-1">Courses</p>
             </div>
           </Link>
-        </div>
+        </div> */}
 
         <div className="footer-nav-link">
           <a href="#">
