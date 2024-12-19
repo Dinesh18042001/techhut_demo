@@ -124,7 +124,17 @@ export default function Header() {
                 </a>
               </li>
 
-              <li className="nav-item dropdown">
+              <li className="nav-item">
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/fullstackdevelopment"
+                >
+                  Program
+                </Link>
+              </li>
+
+              {/* <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
                   to="#"
@@ -151,7 +161,7 @@ export default function Header() {
                     </Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
 
               <li className="nav-item">
                 <a
@@ -223,8 +233,18 @@ export default function Header() {
                 Mentors
               </Link>
             </li>
-            
-            <li className="nav-item dropdown">
+
+            <li className="nav-item">
+              <Link
+                className="nav-link active"
+                aria-current="page"
+                to="/fullstackdevelopment"
+              >
+                Program
+              </Link>
+            </li>
+
+            {/* <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
                   to="#"
@@ -251,8 +271,7 @@ export default function Header() {
                     </Link>
                   </li>
                 </ul>
-              </li>
-
+              </li> */}
 
             <li className="nav-item">
               <Link className="nav-link" to="#career" id="toggle-tab">

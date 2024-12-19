@@ -1,115 +1,3 @@
-// import React from "react";
-// import { Link } from "react-router-dom";
-
-// export default function ProgramCard() {
-//   // Card data array
-//   const cardData = [
-//     {
-//       id: 1,
-//       title: "Full Stack Development",
-//       highlights: [
-//         "Front End: HTML, CSS, JavaScript",
-//         "Back End: Nodejs, Python",
-//         "Databases: SQL, NoSQL(MySQL, MongoDB)",
-//         "APIs",
-//         "Deployment: AWS, Docker",
-//         "Live Projects",
-//       ],
-//       instructors: ["facebook", "microsoft", "apple", "google"],
-//       link: "/fullstackdevelopment",
-//       icon: "./assets/programcard/tittle-icon1.svg",
-//       bgIcon: "./assets/programcard/bg-icon-one.svg",
-//     },
-//     {
-//       id: 2,
-//       title: "Digital Marketer",
-//       highlights: [
-//         "Search Engine Optimization",
-//         "Social Media",
-//         "Content Marketing",
-//         "PPC Advertising",
-//         "Analytics",
-//         "Live Projects",
-//       ],
-//       instructors: ["facebook", "microsoft", "apple", "google"],
-//       link: "/digitalmarketingdevelopment",
-//       icon: "./assets/programcard/tittle-icon2.svg",
-//       bgIcon: "./assets/programcard/bg-icon-two.svg",
-//     },
-//   ];
-
-//   return (
-//     <div className="program-card-section">
-//       <div className="container">
-//         {/* Row with cards */}
-//         <div className="row">
-//           {cardData.map((card) => (
-//             <div
-//               key={card.id}
-//               className="col-lg-6 d-flex justify-content-center align-items-center mb-4"
-//             >
-//               <div className="main-program-card position-relative">
-//                 <div className="main-program-card-tittle position-relative">
-//                   <div className="main-program-card-tittle-img">
-//                     <img src="./assets/programcard/card-tittle.webp" alt="" />
-//                   </div>
-//                   <div className="main-program-card-tittle-icon">
-//                     <img src={card.icon} alt="" />
-//                   </div>
-//                 </div>
-//                 <div className="main-program-card-body p-3">
-//                   <div className="card-name">
-//                     <h4 className="m-0">{card.title}</h4>
-//                   </div>
-//                   <hr />
-//                   <div className="main-program-card-body-info">
-//                     <h6 className="mb-2">Program Highlights</h6>
-//                     <ul>
-//                       {card.highlights.map((highlight, index) => (
-//                         <li key={index}>{highlight}</li>
-//                       ))}
-//                     </ul>
-//                   </div>
-//                   <hr />
-//                   <div className="main-program-card-footer d-flex justify-content-between align-items-center">
-//                     <div className="main-program-card-footer-icon">
-//                       <p className="mb-2">Instructor from</p>
-//                       <div className="footer-icons">
-//                         {card.instructors.map((instructor, index) => (
-//                           <img
-//                             key={index}
-//                             src={`./assets/programcard/${instructor}.svg`}
-//                             alt={instructor}
-//                           />
-//                         ))}
-//                       </div>
-//                     </div>
-//                     <div className="main-program-card-footer-btn">
-//                       <Link to={card.link}>
-//                         Learn More{" "}
-//                         <span className="ms-2">
-//                           <i className="fa-solid fa-chevron-right"></i>
-//                         </span>
-//                       </Link>
-//                     </div>
-//                   </div>
-//                 </div>
-//                 <div className="bg-icon">
-//                   <img src={card.bgIcon} alt="" />
-//                 </div>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-
-
-
-
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -118,7 +6,7 @@ export default function ProgramCard() {
     <div className="program-card-section">
       <div className="container">
         {/* Row with cards */}
-        <div className="row">
+        <div className="row justify-content-center">
           {/* Card 1: Full Stack Development */}
           <div className="col-lg-6 d-flex justify-content-center align-items-center mb-4">
             <div className="main-program-card position-relative">
@@ -186,7 +74,7 @@ export default function ProgramCard() {
           </div>
 
           {/* Card 2: Digital Marketer */}
-          <div className="col-lg-6 d-flex justify-content-center align-items-center mb-4">
+          {/* <div className="col-lg-6 d-flex justify-content-center align-items-center mb-4">
             <div className="main-program-card position-relative">
               <div className="main-program-card-tittle position-relative">
                 <div className="main-program-card-tittle-img">
@@ -254,7 +142,7 @@ export default function ProgramCard() {
                 <img src="./assets/programcard/bg-icon-two.svg" alt="" />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
