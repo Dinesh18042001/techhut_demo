@@ -941,12 +941,13 @@ ul.dropdown-menu {
   font-size: 13px !important;
 }
 
-.alumuisay-card-main-info .ratting {
+.alumuisay-card-tittle-info .ratting {
   display: flex;
+  margin-top: 3px;
 }
 
-.alumuisay-card-main-info .ratting i {
-  font-size: 20px;
+.alumuisay-card-tittle-info .ratting i {
+  font-size: 13px;
   color: #FF9E0F;
 }
 
@@ -1255,7 +1256,7 @@ ul.dropdown-menu {
   font-size: 14px;
 }
 
-.form-main input {
+ input {
   height: 45px;
   background: #F1F5F9 !important;
 }
@@ -1294,6 +1295,15 @@ textarea {
 .form-btn a:hover {
   background-color: #0056b3;
   transform: scale(1.05);
+}
+
+.form-submit-btn{
+ height: 45px !important;
+ background: var(--primary-color) !important;
+ transition: background-color 0.3s, transform 0.3s;
+}
+.form-submit-btn:hover{
+  background-color: #0056b3 !important;
 }
 
 /* modal section end */
@@ -1537,6 +1547,7 @@ textarea {
   height: 50px;
   border-bottom: 2px solid #CBD5E1;
   border-radius: none !important;
+  background: #fff !important;
 }
 
 .main-fullstackdev-banner-form input:focus {
@@ -2032,7 +2043,6 @@ textarea {
 .month-info-card {
   background: #0F172A;
   padding: 20px;
-  height: 630px;
   border-radius: 15px;
 }
 
@@ -2204,7 +2214,7 @@ textarea {
 
 .footer-nav-link a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
   font-weight: 600 !important;
 }
 
@@ -2215,7 +2225,6 @@ textarea {
 .footer-nav-link a p {
   font-size: 13px !important;
   font-weight: 500;
-  color: #000;
 }
 
 .footer-nav-link-main img {
@@ -2242,7 +2251,7 @@ textarea {
   /* Background color of the footer */
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.15);
   /* Small shadow for a lifted effect */
-  padding: 10px 0;
+  padding: 5px 0;
   /* Padding around the icons */
   z-index: 1000;
   /* Ensure it stays on top */
@@ -2269,7 +2278,6 @@ textarea {
   align-items: center;
   font-size: 12px;
   /* Smaller text for mobile */
-  color: #333;
   /* Text color */
 }
 
@@ -2642,12 +2650,18 @@ textarea {
   }
 }
 
-.fullstackblog-section .fullstackblog-section-tittle h2 {
+.fullstackblog-section .fullstackblog-section-tittle h1 {
   font-weight: 500px;
-  font-size: 22px;
+  font-size: 30px;
+}
+@media (max-width: 991px) {
+  .fullstackblog-section .fullstackblog-section-tittle h1 {
+    font-size: 20px;
+  }
 }
 
-.fullstackblog-section .fullstackblog-section-tittle h2 span {
+
+.fullstackblog-section .fullstackblog-section-tittle h1 span {
   font-weight: 600;
   color: var(--primary-color);
 }
@@ -2665,9 +2679,13 @@ textarea {
   margin-bottom: 15px;
 }
 
-.fullstackblog-main-info h4 {
+.fullstackblog-main-info h2 {
   font-weight: 500;
   font-size: 20px;
+}
+.fullstackblog-main-info h3 {
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .fullstackblog-main-info ul li {
@@ -2701,6 +2719,16 @@ textarea {
 @media (max-width: 991px) {
   .solid-engineer-smoll-section .solid-engineer-smoll-section-tittle h3{
     font-size: 20px;
+  }
+  .remove-padding {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+  }
+  .mentoes-section-tittle  {
+    margin-top: 0 !important;
+  }
+  .mentoes-section .container {
+    margin-top: 0 !important;
   }
 }
 
@@ -2784,7 +2812,21 @@ textarea {
   font-size: 15px;
 }
 
+.nav-link {
+  cursor: pointer;
+}
 
-
-
+#mentors {
+  height: 50px;
+}
 /* solid-engineer-smoll-section end */
+
+.custom-toast-container {
+  top: -35px !important;
+  right: 10px; 
+  left: auto;
+  bottom: auto;
+  position: fixed;
+  z-index: 9999; 
+}
+

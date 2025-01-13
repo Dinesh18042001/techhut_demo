@@ -1,75 +1,8 @@
 import React, { useState } from "react";
-import emailjs from "emailjs-com"; // Import EmailJS
+import { ContactForm } from "../../../contract-form/contact";
 
 export default function DigitalMarketerBanner() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    number: "",
-    address: "",
-  });
-
-  const [errors, setErrors] = useState({});
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-
-    // Allow only numeric input for the phone number and restrict to 11 digits
-    if (name === "number") {
-      // Update state with only numeric values
-      const numericValue = value.replace(/[^0-9]/g, '');
-      if (numericValue.length <= 11) { // Restrict to 11 digits
-        setFormData({ ...formData, [name]: numericValue });
-      }
-    } else {
-      setFormData({ ...formData, [name]: value });
-    }
-  };
-
-  const validateForm = () => {
-    const newErrors = {};
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Basic email regex
-
-    // Check if fields are filled
-    for (const field in formData) {
-      if (!formData[field]) {
-        newErrors[field] = `${field} is required`;
-      }
-    }
-
-    // Email validation
-    if (formData.email && !emailRegex.test(formData.email)) {
-      newErrors.email = "Invalid email format";
-    }
-
-    // Check if number has exactly 11 digits
-    if (formData.number && formData.number.length !== 11) {
-      newErrors.number = "Phone number must be exactly 11 digits";
-    }
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0; // Return true if no errors
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent default form submission
-    if (validateForm()) {
-      // Use EmailJS to send the form data
-      emailjs
-        .send("service_p1fhn9x", "template_d6z5t8h", formData, "AyJgE9CLYKvZNGnjP")
-        .then(
-          (response) => {
-            console.log("Email sent successfully:", response.status, response.text);
-            // Clear form after successful submission
-            setFormData({ address: "", name: "", email: "", number: "" });
-            setErrors({});
-          },
-          (error) => {
-            console.error("Failed to send email:", error);
-          }
-        );
-    }
-  };
+ 
 
   return (
     <>
@@ -144,70 +77,7 @@ export default function DigitalMarketerBanner() {
                 </h4>
 
                 <div className="main-fullstackdev-banner-form mt-4">
-                  <form onSubmit={handleSubmit}>
-                    <div className="row g-4">
-                      {/* Name */}
-                      <div className="col-12">
-                        <input
-                          type="text"
-                          name="name"
-                          className={`form-control ${errors.name ? "is-invalid" : ""}`}
-                          id="name"
-                          placeholder="Name"
-                          value={formData.name}
-                          onChange={handleChange}
-                        />
-                      </div>
-
-                      {/* Email */}
-                      <div className="col-12">
-                        <input
-                          type="email"
-                          name="email"
-                          className={`form-control ${errors.email ? "is-invalid" : ""}`}
-                          id="email"
-                          placeholder="Email"
-                          value={formData.email}
-                          onChange={handleChange}
-                        />
-                      </div>
-
-                      {/* Number */}
-                      <div className="col-12">
-                        <input
-                          type="tel"
-                          name="number"
-                          className={`form-control ${errors.number ? "is-invalid" : ""}`}
-                          id="number"
-                          placeholder="Phone No"
-                          value={formData.number}
-                          onChange={handleChange} // Use the modified handleChange
-                        />
-                      </div>
-
-                      {/* Address */}
-                      <div className="col-12">
-                        <input
-                          type="text"
-                          name="address"
-                          className={`form-control ${errors.address ? "is-invalid" : ""}`}
-                          id="address"
-                          placeholder="Address"
-                          value={formData.address}
-                          onChange={handleChange}
-                        />
-                      </div>
-
-                      {/* Submit Button */}
-                      <div className="col-12 text-center mt-5">
-                        <div className="fullstackdev-banner-btn">
-                          <button type="submit" className="w-100">
-                            Book Your Trial
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
+                  <ContactForm/>
                 </div>
               </div>
             </div>

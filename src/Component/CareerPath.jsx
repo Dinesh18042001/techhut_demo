@@ -51,7 +51,7 @@ export default function CareerPath() {
                   <div className="main-silider-box d-flex justify-content-center align-items-center text-center">
                     <div className="icon-box box2">
                       <span>
-                        <i class="fa-regular fa-face-smile"></i>
+                        <i className="fa-regular fa-face-smile"></i>
                       </span>
                     </div>
                     <p>Wondering why you aren't getting Interview Calls?</p>
@@ -64,7 +64,7 @@ export default function CareerPath() {
                   <div className="main-silider-box d-flex justify-content-center align-items-center text-center">
                     <div className="icon-box box3">
                       <span>
-                      <i class="fa-regular fa-face-smile"></i>
+                      <i className="fa-regular fa-face-smile"></i>
                       </span>
                     </div>
                     <p>Unable to find quality Job Opportunities?</p>
@@ -74,7 +74,7 @@ export default function CareerPath() {
                   <div className="main-silider-box d-flex justify-content-center align-items-center text-center">
                     <div className="icon-box box4">
                       <span>
-                      <i class="fa-solid fa-comments"></i>
+                      <i className="fa-solid fa-comments"></i>
                       </span>
                     </div>
                     <p> Is programming a concern for you Professionally?</p>
@@ -87,7 +87,7 @@ export default function CareerPath() {
                   <div className="main-silider-box d-flex justify-content-center align-items-center text-center">
                     <div className="icon-box box5">
                       <span>
-                      <i class="fa-solid fa-bolt"></i>
+                      <i className="fa-solid fa-bolt"></i>
                       </span>
                     </div>
                     <p> Struggling to find Right Resources?</p>
@@ -98,7 +98,7 @@ export default function CareerPath() {
                   <div className="main-silider-box d-flex justify-content-center align-items-center text-center">
                     <div className="icon-box box6">
                       <span>
-                      <i class="fa-solid fa-graduation-cap"></i>
+                      <i className="fa-solid fa-graduation-cap"></i>
                       </span>
                     </div>
                     <p>Not achieving success in Resume Shortlisting?</p>
@@ -111,7 +111,7 @@ export default function CareerPath() {
                   <div className="main-silider-box d-flex justify-content-center align-items-center text-center">
                     <div className="icon-box box7">
                       <span>
-                      <i class="fa-solid fa-paper-plane"></i>
+                      <i className="fa-solid fa-paper-plane"></i>
                       </span>
                     </div>
                     <p>Struggling with Limited Networking?</p>
@@ -121,7 +121,7 @@ export default function CareerPath() {
                   <div className="main-silider-box d-flex justify-content-center align-items-center text-center">
                     <div className="icon-box box8">
                       <span>
-                      <i class="fa-solid fa-rocket"></i>
+                      <i className="fa-solid fa-rocket"></i>
                       </span>
                     </div>
                     <p>Experiencing Doubts During Technical HR Interviews?</p>

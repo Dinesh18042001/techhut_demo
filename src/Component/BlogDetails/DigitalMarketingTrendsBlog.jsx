@@ -6,10 +6,10 @@ export default function DigitalMarketingTrendsBlog() {
       <div className="fullstackblog-section mt-4">
         <div className="container">
           <div className="fullstackblog-section-tittle mb-4">
-            <h2>
+            <h1>
               Top <span>Digital Marketing Trends</span> You Can’t Ignore This
               Year
-            </h2>
+            </h1>
             <div className="blog-date">
               <p>November 22, 2024</p>
             </div>
@@ -30,7 +30,7 @@ export default function DigitalMarketingTrendsBlog() {
               ten trends that can reshape your marketing strategy in terms of
               better audience engagement, building trust, and driving growth.
             </p>
-            <h4>AI Marketing Revolution</h4>
+            <h2>AI Marketing Revolution</h2>
             <p>
               AI has long moved past the status of some cutting-edge dream and
               has turned into an effective driver in digital marketing. From
@@ -40,7 +40,7 @@ export default function DigitalMarketingTrendsBlog() {
               generation create customer touchpoints and present valuable data
               insights with ease.
             </p>
-            <h4>Short-Form Video Leads the Way</h4>
+            <h2>Short-Form Video Leads the Way</h2>
             <p>
               Short-form videos, particularly on TikTok and Instagram Reels,
               have stormed social media. These rapid, golden nuggets of
@@ -50,7 +50,7 @@ export default function DigitalMarketingTrendsBlog() {
               important box that needs to be checked in today's marketing
               strategy.
             </p>
-            <h4>UGC Builds Trust</h4>
+            <h2>UGC Builds Trust</h2>
             <p>
               People trust recommendations more from other users than from the
               brand itself. And that is where UGC shines. Be it customer
@@ -58,7 +58,7 @@ export default function DigitalMarketingTrendsBlog() {
               credibility and authenticity of a brand while building a community
               of loyal followers and attracting new customers.
             </p>
-            <h4>Social Commerce Makes Shopping Easy</h4>
+            <h2>Social Commerce Makes Shopping Easy</h2>
             <p>
               Social commerce is well on its way to becoming a shopping
               destination. With functionality now widely available across most
@@ -66,7 +66,7 @@ export default function DigitalMarketingTrendsBlog() {
               even TikTok, allowing for in-app purchases, brands are able to
               reach consumers where they are spending their time.{" "}
             </p>
-            <h4>Email Marketing Gets More Personal</h4>
+            <h2>Email Marketing Gets More Personal</h2>
             <p>
               Email marketing has shown its staying power by constantly evolving
               to offer even more targeted campaigns that speak directly to
@@ -74,7 +74,7 @@ export default function DigitalMarketingTrendsBlog() {
               tastes and behaviours raises engagement and strengthens
               relationships with subscribers.
             </p>
-            <h4>Sustainability becomes a core value</h4>
+            <h2>Sustainability becomes a core value</h2>
             <p>
               Sustainability is something of social importance that consumers
               would want to see or expect from a brand these days. Digital
@@ -83,7 +83,7 @@ export default function DigitalMarketingTrendsBlog() {
               brand loyalty. Sustainability can help in bolstering a brand's
               image and building strong relationships with customers.
             </p>
-            <h4>Build your future-ready career with TechHut Academy</h4>
+            <h2>Build your future-ready career with TechHut Academy</h2>
             <p>
               These are some of the trends to negotiate, but{" "}
               <a href="https://www.techhutacademy.com/">TechHut Academy</a> arms

@@ -11,7 +11,7 @@ export default function Mentorship() {
           </h2>
           <p className="text-center">
             Get expert advice and Insights from mentors. Book exclusive sessions
-            with mentors to resolve your queries on a 1-1 Basis. Get access to
+            with mentors to resolve your queries on a 1 : 1 Basis. Get access to
             skill-based webinars and group mentorship boot camps with industry
             experts
           </p>

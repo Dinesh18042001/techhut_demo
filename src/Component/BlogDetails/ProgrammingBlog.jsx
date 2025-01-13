@@ -6,10 +6,10 @@ export default function ProgrammingBlog() {
       <div className="fullstackblog-section mt-4">
         <div className="container">
           <div className="fullstackblog-section-tittle mb-4">
-            <h2>
+            <h1>
               Is <span>Programming Holding</span> You Back? Let Expert Mentors
               Help You Excel!
-            </h2>
+            </h1>
             <div className="blog-date">
               <p>May 15, 2024</p>
             </div>
@@ -32,7 +32,7 @@ export default function ProgrammingBlog() {
               With mentors ready from top MNCs, get set to learn the required
               skills, fine-tune one's career strategy, and achieve goals.
             </p>
-            <h4>Turn Passion into a New Career Path</h4>
+            <h2>Turn Passion into a New Career Path</h2>
             <p>
               Whether it's a dream career in tech or the path is not so clear,
               this will be the perfect place to get started. TechHut Academy is
@@ -49,7 +49,7 @@ export default function ProgrammingBlog() {
               technical world becomes quite easy in order to start or level up a
               career.
             </p>
-            <h4>Struggling with Job Referrals or Interview Calls?</h4>
+            <h2>Struggling with Job Referrals or Interview Calls?</h2>
             <p>
               It gets vexing when one applies for jobs and never hears from the
               employers. When the job referrals and interview calls start
@@ -66,7 +66,7 @@ export default function ProgrammingBlog() {
               overlooked. All it takes is being in the right place with the
               right people.
             </p>
-            <h4>Get the Right Support for Programming and More</h4>
+            <h2>Get the Right Support for Programming and More</h2>
             <p>
               Programming is one of those valuable skills that can sometimes be
               very challenging. Some days are not all smooth sailing, whether
@@ -84,7 +84,7 @@ export default function ProgrammingBlog() {
               participants ready for technical HR interviews and encouraging
               them to be more confident out in the real world.
             </p>
-            <h4>Ready to Take the Leap? Sign up for a Free Live Class!</h4>
+            <h2>Ready to Take the Leap? Sign up for a Free Live Class!</h2>
             <p>It doesn't have to hold anyone back in programming. TechHut Academy equips the learner with tools, resources, and advice for success. Whether one is starting out or wants to polish one's talents, support is given every step of the way.
             </p>
             <p>Book a free live class today by clicking the link and see exactly how expert mentors can turn programming skills into a career from the comfort of your home. With TechHut Academy, success is at finger length, so why wait?</p>

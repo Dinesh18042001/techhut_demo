@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import DownloadCurriculum from "../../Modals/DownloadCurriculum";
 
@@ -10,28 +9,25 @@ export default function SolidEngineer() {
       case 1:
         return (
           <div className="month-info-card-info mt-4">
-            <p>Module 1 : Introduction to Web Development</p>
+            <p>Introduction to Web Designing (Month 1)</p>
             <ul className="mt-4">
               <li className="mb-2">
-                <p> HTML & CSS Basics</p>
+                <p>Basics of web design principles</p>
               </li>
               <li className="mb-2">
-                <p>Responsive Design </p>
+                <p>Overview of HTML, CSS</p>
               </li>
               <li className="mb-2">
-                <p>avaScript Fundamentals </p>
+                <p>HTML Basic </p>
               </li>
               <li className="mb-2">
-                <p>DOM Manipulation  </p>
+                <p>Media Integration</p>
               </li>
               <li className="mb-2">
-                <p>Version Control (Git) </p>
+                <p>HTML Forms & Validation</p>
               </li>
               <li className="mb-2">
-                <p> Forms & Validation  </p>
-              </li>
-              <li className="mb-2">
-                <p> Introduction to Web Accessibility</p>
+                <p> DOM Manipulation</p>
               </li>
               <li className="mb-2">
                 <p>Browser Developer Tools</p>
@@ -40,10 +36,13 @@ export default function SolidEngineer() {
                 <p>Basic SEO Principles</p>
               </li>
               <li className="mb-2">
-                <p> Introduction to Web Hosting </p>
+                <p>CSS Basics</p>
+              </li>
+              <li className="mb-2">
+                <p> CSS Layout</p>
               </li>
               <li className="mb-4">
-                <p> Creating Simple Web Pages </p>
+                <p> Overview of Designing Framework</p>
               </li>
             </ul>
           </div>
@@ -51,40 +50,40 @@ export default function SolidEngineer() {
       case 2:
         return (
           <div className="month-info-card-info mt-4">
-            <p>Advanced Front-End Development</p>
+            <p>Introduction to JavaScript (Month 1)</p>
             <ul className="mt-4">
               <li className="mb-2">
-                <p>JavaScript ES6</p>
+                <p>Data Types and Variables</p>
               </li>
               <li className="mb-2">
-                <p>ReactJS Basics </p>
+                <p>Operators, Control Flow</p>
               </li>
               <li className="mb-2">
-                <p>React Hooks & State Management  </p>
+                <p>Functions and Scope</p>
               </li>
               <li className="mb-2">
-                <p> React Router & Navigation  </p>
+                <p> Objects and Arrays</p>
               </li>
               <li className="mb-2">
-                <p>CSS Frameworks (Bootstrap/Tailwind)  </p>
+                <p>DOM Manipulation</p>
               </li>
               <li className="mb-2">
-                <p>Front-End Testing (Jest) </p>
+                <p>Callbacks, Promises, and async/await</p>
               </li>
               <li className="mb-2">
-                <p>REST API Integration  </p>
+                <p>Fetch API and error handling</p>
               </li>
               <li className="mb-2">
-                <p>Component Lifecycle in React </p>
+                <p>Error Handling</p>
               </li>
               <li className="mb-2">
-                <p>Error Handling & Debugging  </p>
+                <p>Classes and Objects</p>
               </li>
               <li className="mb-2">
-                <p>State Management with Redux</p>
+                <p>Local and Session Storage</p>
               </li>
               <li className="mb-4">
-                <p>Optimizing Front-End Performance</p>
+                <p>ES6+ Features</p>
               </li>
             </ul>
           </div>
@@ -92,40 +91,19 @@ export default function SolidEngineer() {
       case 3:
         return (
           <div className="month-info-card-info mt-4">
-            <p>Back-End Development</p>
+            <p>Introduction to Data Structures in JavaScript ( 15 Days ) </p>
             <ul className="mt-4">
               <li className="mb-2">
-                <p>Node.js Introduction</p>
+                <p>How JavaScript s built in data structures work</p>
               </li>
               <li className="mb-2">
-                <p> Express.js Framework</p>
+                <p> Linked Lists</p>
               </li>
               <li className="mb-2">
-                <p>RESTful APIs </p>
+                <p> Stacks and Queues</p>
               </li>
               <li className="mb-2">
-                <p>Authentication & Authorization (JWT, OAuth)</p>
-              </li>
-              <li className="mb-2">
-                <p>Back-End Testing (Mocha)</p>
-              </li>
-              <li className="mb-2">
-                <p>Asynchronous Programming (Promises, Async/Await)</p>
-              </li>
-              <li className="mb-2">
-                <p>Middleware & Error Handling </p>
-              </li>
-              <li className="mb-2">
-                <p>File Handling & Uploads</p>
-              </li>
-              <li className="mb-2">
-                <p>Session Management</p>
-              </li>
-              <li className="mb-2">
-                <p>Caching Strategies</p>
-              </li>
-              <li className="mb-4">
-                <p>WebSocket for Real-Time Communication</p>
+                <p>Trees</p>
               </li>
             </ul>
           </div>
@@ -133,40 +111,34 @@ export default function SolidEngineer() {
       case 4:
         return (
           <div className="month-info-card-info mt-4">
-            <p>Database Management</p>
+            <p>Introduction to React.js ( Month 1 )</p>
             <ul className="mt-4">
               <li className="mb-2">
-                <p>SQL Databases (MySQL/PostgreSQL)</p>
+                <p>Setting Up the Environment</p>
               </li>
               <li className="mb-2">
-                <p>NoSQL Databases (MongoDB)</p>
+                <p>React Basics</p>
               </li>
               <li className="mb-2">
-                <p>Database Design & Relationships</p>
+                <p>State Management</p>
               </li>
               <li className="mb-2">
-                <p> CRUD Operations</p>
+                <p>Handling Events and Forms</p>
               </li>
               <li className="mb-2">
-                <p> Database Security  </p>
+                <p>React Router</p>
               </li>
               <li className="mb-2">
-                <p>Data Normalization & Indexing  </p>
+                <p>React Hooks</p>
               </li>
               <li className="mb-2">
-                <p>Advanced Querying & Aggregations</p>
+                <p>State Management Libraries</p>
               </li>
               <li className="mb-2">
-                <p>Database Migrations & Seeders </p>
+                <p>API Integration</p>
               </li>
               <li className="mb-2">
-                <p>Connection Pools & Query Optimization  </p>
-              </li>
-              <li className="mb-2">
-                <p>Data Backup & Recovery</p>
-              </li>
-              <li className="mb-4">
-                <p>Database Performance Tuning</p>
+                <p>Advanced Topics</p>
               </li>
             </ul>
           </div>
@@ -174,40 +146,34 @@ export default function SolidEngineer() {
       case 5:
         return (
           <div className="month-info-card-info mt-4">
-            <p>DevOps & Deployment</p>
+            <p>Back End Development (1 Month)</p>
             <ul className="mt-4">
               <li className="mb-2">
-                <p>Server & Hosting Basics </p>
+                <p>Introduction to Node.js </p>
               </li>
               <li className="mb-2">
-                <p>Docker Containers</p>
+                <p>Building a Basic Server</p>
               </li>
               <li className="mb-2">
-                <p> Continuous Integration & Deployment  </p>
+                <p>Asynchronous Programming </p>
               </li>
               <li className="mb-2">
-                <p>Cloud Platforms (AWS, Heroku)  </p>
+                <p>Express.js Framework</p>
               </li>
               <li className="mb-2">
-                <p>Application Monitoring & Logging </p>
+                <p>Middleware</p>
               </li>
               <li className="mb-2">
-                <p>Nginx & Apache Configuration  </p>
+                <p>RESTful APIs</p>
               </li>
               <li className="mb-2">
-                <p>SSL Certificates & HTTPS</p>
+                <p>Authentication and Authorization</p>
               </li>
               <li className="mb-2">
-                <p>Load Balancing & Scalability</p>
+                <p>Testing and Debugging</p>
               </li>
               <li className="mb-2">
-                <p> Environment Variables & Secrets Management</p>
-              </li>
-              <li className="mb-2">
-                <p> Automating Deployments with Jenkins  </p>
-              </li>
-              <li className="mb-4">
-                <p>Managing Multi-Environment Deployments</p>
+                <p> Testing and Debugging</p>
               </li>
             </ul>
           </div>
@@ -215,37 +181,68 @@ export default function SolidEngineer() {
       case 6:
         return (
           <div className="month-info-card-info mt-4">
-            <p> Full Stack Project Development </p>
+            <p> Database Management ( 15 Days )</p>
             <ul className="mt-4">
               <li className="mb-2">
-                <p>GitHub Portfolio Creation  </p>
+                <p>Introduction to MongoDB</p>
               </li>
               <li className="mb-2">
-                <p> Interview Preparation  </p>
+                <p> Advanced MongoDB for Developers</p>
+              </li>
+              <li className="mb-2">
+                <p>Data Modelling in MongoDB</p>
+              </li>
+              <li className="mb-2">
+                <p>Full Stack Development with MongoDB </p>
+              </li>
+              <li className="mb-2">
+                <p>Build Real World Projects with MongoDB</p>
+              </li>
+            </ul>
+          </div>
+        );
+      case 7:
+        return (
+          <div className="month-info-card-info mt-4">
+            <p> Advanced DevOps (Month 1)</p>
+            <ul className="mt-4">
+              <li className="mb-2">
+                <p>Github & Bitbucket</p>
+              </li>
+              <li className="mb-2">
+                <p> Cloud Platforms</p>
+              </li>
+              <li className="mb-2">
+                <p>AWS Introduction, S3 Bucket, EC2</p>
+              </li>
+              <li className="mb-2">
+                <p>Website hosting and Deployment </p>
+              </li>
+              <li className="mb-2">
+                <p>CI/CD Pipeline</p>
+              </li>
+            </ul>
+          </div>
+        );
+      case 8:
+        return (
+          <div className="month-info-card-info mt-4">
+            <p>Final Project & Career Preparation (Month 1)</p>
+            <ul className="mt-4">
+              <li className="mb-2">
+                <p>Full Stack Project Development</p>
+              </li>
+              <li className="mb-2">
+                <p> Interview Preparation</p>
               </li>
               <li className="mb-2">
                 <p>Resume Building</p>
               </li>
               <li className="mb-2">
-                <p>Soft Skills Training </p>
-              </li>
-              <li className="mb-2">
-                <p>Problem-Solving Techniques</p>
-              </li>
-              <li className="mb-2">
-                <p>Mock Interviews </p>
-              </li>
-              <li className="mb-2">
-                <p>Collaborative Development & Team Projects  </p>
-              </li>
-              <li className="mb-2">
-                <p>Freelancing & Remote Work Tips  </p>
+                <p>Freelancing & Remote Work Tips</p>
               </li>
               <li className="mb-2">
                 <p>Networking & Building Industry Connections</p>
-              </li>
-              <li className="mb-2">
-                <p>Building a Personal Brand in Tech  </p>
               </li>
             </ul>
           </div>
@@ -270,36 +267,41 @@ export default function SolidEngineer() {
           <div className="row mt-5">
             <div className="col-lg-6 mb-4">
               {/* Module Tabs */}
-              {[1, 2, 3, 4, 5, 6].map((module) => (
+              {[1, 2, 3, 4, 5, 6, 7, 8].map((module) => (
                 <a key={module} onClick={() => setActiveModule(module)}>
                   <div
                     className={`fundamentals-box position-relative mb-3 ${
                       activeModule === module ? "active" : ""
                     }`}
                     style={{
-                      backgroundColor: activeModule === module ? "#0F172A" : "#f8f9fa", // Change colors as needed
+                      backgroundColor:
+                        activeModule === module ? "#0F172A" : "#f8f9fa", // Change colors as needed
                       color: activeModule === module ? "#fff" : "#000",
                     }}
                   >
-                    <div className="fundamentals-box-card d-flex align-items-center justify-content-start gap-3">
+                    <div className="fundamentals-box-card d-flex align-items-center justify-content-start gap-3 h-100">
                       <div className="fundamentals-box-card-num">
-                        <h2>{String(module).padStart(2, '0')}</h2>
+                        <h2>{String(module).padStart(2, "0")}</h2>
                       </div>
                       <div className="fundamentals-box-card-info">
                         <p>Module</p>
                         <h6>
-                          {module === 1 && "Introduction to Web Development"}
-                          {module === 2 && "Advanced Front-End Development"}
-                          {module === 3 && " Back-End Development"}
-                          {module === 4 && "Database Management "}
-                          {module === 5 && "DevOps & Deployment "}
-                          {module === 6 && " Final Project & Career Preparation"}
+                          {module === 1 && "Introduction to Web Designing"}
+                          {module === 2 && "Introduction to JavaScript"}
+                          {module === 3 &&
+                            "Introduction to Data Structures in JavaScript"}
+                          {module === 4 && "Introduction to React.js "}
+                          {module === 5 && "Back End Development  "}
+                          {module === 6 && " Database Management"}
+                          {module === 7 && "Advanced DevOps"}
+                          {module === 8 &&
+                            "Final Project & Career Preparation "}
                         </h6>
                       </div>
                     </div>
-                    <div className="months-logo">
+                    {/* <div className="months-logo">
                       <p>1 Month</p>
-                    </div>
+                    </div> */}
                   </div>
                 </a>
               ))}
@@ -307,8 +309,8 @@ export default function SolidEngineer() {
               {/* Download Curriculum button */}
               <div className="fundamentals-box-btn text-center">
                 <a
-                 href="assets/pdf/TechHut.pdf"
-                 download="Curriculum.pdf" 
+                  href="assets/pdf/TechHut.pdf"
+                  download="Curriculum.pdf"
                   type="button"
                   className="btn btn-primary"
                 >

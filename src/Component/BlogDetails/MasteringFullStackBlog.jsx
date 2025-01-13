@@ -6,10 +6,10 @@ export default function MasteringFullStackBlog() {
       <div className="fullstackblog-section mt-4">
         <div className="container">
           <div className="fullstackblog-section-tittle mb-4">
-            <h2>
+            <h1>
               Mastering <span>Full-stack Development</span> : Key Skills and
               Tools to Get You Started
-            </h2>
+            </h1>
             <div className="blog-date">
               <p>25 December, 2024</p>
             </div>
@@ -28,7 +28,7 @@ export default function MasteringFullStackBlog() {
               and tools can give one an edge over others. Let's break it down
               step by step.
             </p>
-            <h4>What Skills Do You Need to Become a Full Stack Developer?</h4>
+            <h2>What Skills Do You Need to Become a Full Stack Developer?</h2>
             <p>
               The full stack development comprises two sides, namely front-end
               and back-end development. Full stack development is all about
@@ -60,7 +60,7 @@ export default function MasteringFullStackBlog() {
                 bottom. Hence, it's the general favourite.
               </li>
             </ul>
-            <h4>The Must-Have Tools by Every Full Stack Developer</h4>
+            <h2>The Must-Have Tools by Every Full Stack Developer</h2>
             <p>
               Having the right tools can really amplify your development
               process:
@@ -83,7 +83,7 @@ export default function MasteringFullStackBlog() {
                 favourite code editors.
               </li>
             </ul>
-            <h4>Learning Paths: Getting Started</h4>
+            <h2>Learning Paths: Getting Started</h2>
             <p>
               <a href="https://www.techhutacademy.com/">TechHut Academy</a>{" "}
               provides an online course in full-stack web development, learning
@@ -98,7 +98,7 @@ export default function MasteringFullStackBlog() {
               easy to build up your skills in no time and proficiently manage
               both sides of the development spectrum.
             </p>
-            <h4>Ready to start your journey?</h4>
+            <h2>Ready to start your journey?</h2>
             <p>
               Equipping oneself with full-stack development opens a door toward
               many career opportunities in web and app development. This allows

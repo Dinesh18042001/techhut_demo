@@ -78,7 +78,7 @@ const options = {
 
               <div className="custom-card-bottom-box position-relative mt-5">
                 <h6 className="text-center">
-                  Fresher <i class="fa-solid fa-arrow-right me-3 ms-3"></i>{" "}
+                  Fresher <i className="fa-solid fa-arrow-right me-3 ms-3"></i>{" "}
                   Engineer
                 </h6>
 
@@ -133,7 +133,7 @@ const options = {
 
               <div className="custom-card-bottom-box position-relative mt-5">
                 <h6 className="text-center">
-                Student <i class="fa-solid fa-arrow-right me-3 ms-3"></i>{" "}
+                Student <i className="fa-solid fa-arrow-right me-3 ms-3"></i>{" "}
                 Marketing Intern
                 </h6>
 
@@ -188,7 +188,7 @@ const options = {
 
               <div className="custom-card-bottom-box position-relative mt-5">
                 <h6 className="text-center">
-                Software Intern <i class="fa-solid fa-arrow-right me-3 ms-3"></i>{" "}
+                Software Intern <i className="fa-solid fa-arrow-right me-3 ms-3"></i>{" "}
                 SDE II
                 </h6>
 

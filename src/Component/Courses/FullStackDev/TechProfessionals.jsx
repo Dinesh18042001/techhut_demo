@@ -25,18 +25,12 @@ export default function TechProfessionals() {
               <div className="col-12 col-sm-6 col-md-auto techprofessionals-box-one">
                 <a href="assets/pdf/Curriculum.pdf" target="_blank">
                   Download Career Handbook{" "}
-                  <i class="fa-solid fa-download ms-2"></i>
+                  <i className="fa-solid fa-download ms-2"></i>
                 </a>
               </div>
-              {/* <div className="col-12 col-sm-6 col-md-auto techprofessionals-box-two">
-                <a href="#">
-                  Download Placement Stats{" "}
-                  <i class="fa-solid fa-download ms-2"></i>
-                </a>
-              </div> */}
+             
             </div>
           </div>
-          {/* <TechCard/> */}
         </div>
       </div>
     </>

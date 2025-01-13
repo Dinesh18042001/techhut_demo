@@ -2,8 +2,25 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Apply from "./Modals/Apply";
 import { Offcanvas } from "bootstrap";
+import { useNavigate } from 'react-router-dom';
 
 export default function Header() {
+  const navigate = useNavigate();
+
+
+  const doRedirect = (tag) => {
+    console.log(tag);
+    navigate('/');
+
+    setTimeout(() => {
+      let divId = tag?.replace("#", "")
+      const element = document.getElementById(divId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100)
+  }
+
   useEffect(() => {
     const handleScroll = () => {
       const nav = document.querySelector(".navbar");
@@ -47,26 +64,29 @@ export default function Header() {
       "hidden.bs.offcanvas",
       handleBackdropRemoval
     );
-
+    
     // Cleanup event listeners on unmount
     return () => {
       toggleLinks.forEach((link) => {
-        link.removeEventListener("click", () => offcanvas.hide());
+        // link.removeEventListener("click", () => offcanvas.hide());
       });
       offcanvasElement.removeEventListener(
         "hidden.bs.offcanvas",
         handleBackdropRemoval
       );
     };
+
+    
   }, []);
 
   return (
     <>
       {/* Main Navbar */}
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <div id="home"></div>
+      <nav className="navbar navbar-expand-lg navbar-light"  >
         <div className="container">
           <div className="logo">
-            <Link to="/">
+            <Link onClick={() => doRedirect('#home')}>
               <img src="./assets/img/logo.png" alt="Logo" />
             </Link>
           </div>
@@ -99,26 +119,18 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link className="nav-link active" aria-current="page"  onClick={() => doRedirect('#home')}>
                   <i className="fa-solid fa-house"></i>
                 </Link>
               </li>
-
-              {/* <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/mentors"
-                >
-                  Mentors
-                </Link>
-              </li> */}
 
               <li className="nav-item">
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  href="#mentors"
+                  // href="#mentors"
+                  onClick={() => doRedirect('#mentors')}
+
                 >
                   Mentors
                 </a>
@@ -128,7 +140,7 @@ export default function Header() {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="/fullstackdevelopment"
+                  to="/full-stack-development"
                 >
                   Program
                 </Link>
@@ -172,11 +184,13 @@ export default function Header() {
                   Features
                 </a>
               </li> */}
+
               <li className="nav-item">
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  href="#placements"
+                  // href="#placements"
+                  onClick={() => doRedirect('#placements')}
                 >
                   Placements
                 </a>
@@ -195,7 +209,7 @@ export default function Header() {
             {/* Contact Us button */}
             <div className="callbtn main-btn2">
               <a href="#" data-bs-toggle="modal" data-bs-target="#applyModal">
-                Contact Us <i class="fa-solid fa-phone ms-1"></i>
+                Contact Us <i className="fa-solid fa-phone ms-1"></i>
               </a>
             </div>
           </div>
@@ -229,7 +243,11 @@ export default function Header() {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" id="toggle-tab " to="/mentors">
+              <Link className="nav-link" id="toggle-tab "
+              data-bs-dismiss="offcanvas"
+                // to="/mentors" 
+                onClick={() => doRedirect('#mentors')}
+              >
                 Mentors
               </Link>
             </li>
@@ -238,8 +256,8 @@ export default function Header() {
               <Link
                 className="nav-link active"
                 aria-current="page"
-                to="/fullstackdevelopment"
-              >
+                data-bs-dismiss="offcanvas"
+                to="/full-stack-development">
                 Program
               </Link>
             </li>
@@ -280,7 +298,11 @@ export default function Header() {
             </li> */}
 
             <li className="nav-item">
-              <a className="nav-link" href="#" id="toggle-tab">
+              <a className="nav-link"
+                onClick={() => doRedirect('#placements')}
+                data-bs-dismiss="offcanvas"
+                // href="#" 
+                id="toggle-tab">
                 Placements
               </a>
             </li>
@@ -289,13 +311,14 @@ export default function Header() {
                 Blog
               </Link>
             </li>
-            
+
           </ul>
           {/* Adding the Contact Us button in off-canvas too */}
           <div className="d-flex gap-3 mt-4">
             <div className="nav-btn">
               <a
                 href="#"
+                data-bs-dismiss="offcanvas"
                 data-bs-toggle="modal"
                 id="toggle-tab"
                 data-bs-target="#applyModal"

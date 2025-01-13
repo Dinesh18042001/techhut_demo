@@ -4,7 +4,7 @@ import Accordion from "react-bootstrap/Accordion";
 export default function SolidEngineerSmoll() {
   return (
     <>
-    {/* d-block d-lg-none */}
+      {/* d-block d-lg-none */}
       <div className="solid-engineer-smoll-section d-block d-lg-none ">
         <div className="container">
           <div className="solid-engineer-smoll-section-tittle mb-4">
@@ -23,7 +23,7 @@ export default function SolidEngineerSmoll() {
                   </div>
                   <div className="fundamentals-box-card-info">
                     <p>Module</p>
-                    <h6 className="p-0">Introduction to Web Development</h6>
+                    <h6 className="p-0"> Introduction to Web Designing</h6>
                   </div>
                 </div>
               </Accordion.Header>
@@ -33,19 +33,19 @@ export default function SolidEngineerSmoll() {
                     <h5 className="text-center mb-0">1 Month</h5>
                   </div>
                   <div className="accordion-body-info mt-3">
-                    <h5>Module 1 : Introduction to Web Development</h5>
+                    <h5>Module 1 :Introduction to Web Designing (Month 1)</h5>
                     <ul>
-                      <li>HTML & CSS Basics</li>
-                      <li>Responsive Design</li>
-                      <li>JavaScript Fundamentals</li>
+                      <li>Basics of web design principles</li>
+                      <li>Overview of HTML, CSS</li>
+                      <li>HTML Basic</li>
+                      <li>Media Integration</li>
+                      <li>HTML Forms & Validation</li>
                       <li>DOM Manipulation</li>
-                      <li>Version Control (Git)</li>
-                      <li>Forms & Validation</li>
-                      <li>Introduction to Web Accessibility</li>
                       <li>Browser Developer Tools</li>
                       <li>Basic SEO Principles</li>
-                      <li>Introduction to Web Hosting</li>
-                      <li>Creating Simple Web Pages</li>
+                      <li>CSS Basics</li>
+                      <li>CSS Layout</li>
+                      <li>Overview of Designing Framework</li>
                     </ul>
                   </div>
                 </div>
@@ -60,7 +60,7 @@ export default function SolidEngineerSmoll() {
                   </div>
                   <div className="fundamentals-box-card-info">
                     <p>Module</p>
-                    <h6 className="p-0">Advanced Web Development</h6>
+                    <h6 className="p-0">Introduction to JavaScript</h6>
                   </div>
                 </div>
               </Accordion.Header>
@@ -68,23 +68,21 @@ export default function SolidEngineerSmoll() {
                 <div className="body">
                   <div className="accordion-body-tittle">
                     <h5 className="text-center mb-0">1 Month</h5>
-                    
                   </div>
                   <div className="accordion-body-info mt-3">
-                    <h5>Module 2 : Advanced Front-End Development</h5>
+                    <h5>Module 2 : Introduction to JavaScript (Month 1)</h5>
                     <ul>
-                      <li>Advanced Front-End Development</li>
-                      <li>JavaScript ES6</li>
-                      <li>ReactJS Basics</li>
-                      <li>React Hooks & State Management</li>
-                      <li>React Router & Navigation</li>
-                      <li>CSS Frameworks (Bootstrap/Tailwind)</li>
-                      <li>Front-End Testing (Jest)</li>
-                      <li>REST API Integration</li>
-                      <li>Component Lifecycle in React</li>
-                      <li>Error Handling & Debugging</li>
-                      <li>State Management with Redux</li>
-                      <li>Optimizing Front-End Performance</li>
+                      <li>Data Types and Variables</li>
+                      <li>Operators, Control Flow</li>
+                      <li>Functions and Scope</li>
+                      <li>Objects and Arrays</li>
+                      <li>DOM Manipulation</li>
+                      <li>Callbacks, Promises, and async/await</li>
+                      <li>Fetch API and error handling</li>
+                      <li>Error Handling</li>
+                      <li>Classes and Objects</li>
+                      <li>Local and Session Storage</li>
+                      <li>ES6+ Features</li>
                     </ul>
                   </div>
                 </div>
@@ -99,30 +97,26 @@ export default function SolidEngineerSmoll() {
                   </div>
                   <div className="fundamentals-box-card-info">
                     <p>Module</p>
-                    <h6 className="p-0">Back-End Development</h6>
+                    <h6 className="p-0">
+                      Introduction to Data Structures in JavaScript
+                    </h6>
                   </div>
                 </div>
               </Accordion.Header>
               <Accordion.Body>
                 <div className="body">
                   <div className="accordion-body-tittle">
-                    <h5 className="text-center mb-0">1 Month</h5>
-                   
+                    <h5 className="text-center mb-0"> 15 Days</h5>
                   </div>
                   <div className="accordion-body-info mt-3">
-                    <h5>Module 3 : Back-End Development</h5>
+                    <h5>
+                      Module 4 : Introduction to Data Structures in JavaScript ( 15 Days )
+                    </h5>
                     <ul>
-                      <li>Node.js Introduction</li>
-                      <li>Express.js Framework</li>
-                      <li>RESTful APIs</li>
-                      <li>Authentication & Authorization (JWT, OAuth)</li>
-                      <li>Back-End Testing (Mocha)</li>
-                      <li>Asynchronous Programming (Promises, Async/Await)</li>
-                      <li>Middleware & Error Handling</li>
-                      <li>File Handling & Uploads</li>
-                      <li>Session Management</li>
-                      <li>Caching Strategies</li>
-                      <li>WebSocket for Real-Time Communication</li>
+                      <li>How JavaScript's built-in data structures work</li>
+                      <li>Linked Lists</li>
+                      <li>Stacks and Queues</li>
+                      <li>Trees</li>
                     </ul>
                   </div>
                 </div>
@@ -137,7 +131,9 @@ export default function SolidEngineerSmoll() {
                   </div>
                   <div className="fundamentals-box-card-info">
                     <p>Module</p>
-                    <h6 className="p-0">Database Management</h6>
+                    <h6 className="p-0">
+                      Introduction to React.js 
+                    </h6>
                   </div>
                 </div>
               </Accordion.Header>
@@ -145,22 +141,19 @@ export default function SolidEngineerSmoll() {
                 <div className="body">
                   <div className="accordion-body-tittle">
                     <h5 className="text-center mb-0">1 Month</h5>
-                   
                   </div>
                   <div className="accordion-body-info mt-3">
-                    <h5>Module 4 : Database Management</h5>
+                    <h5>Module 4 : Introduction to React.js ( Month 1 )</h5>
                     <ul>
-                      <li>SQL Databases (MySQL/PostgreSQL)</li>
-                      <li>NoSQL Databases (MongoDB)</li>
-                      <li>Database Design & Relationships</li>
-                      <li>CRUD Operations</li>
-                      <li>Database Security</li>
-                      <li>Data Normalization & Indexing</li>
-                      <li>Advanced Querying & Aggregations</li>
-                      <li>Database Migrations & Seeders</li>
-                      <li>Connection Pools & Query Optimization</li>
-                      <li>Data Backup & Recovery</li>
-                      <li>Database Performance Tuning</li>
+                      <li>Setting Up the Environment</li>
+                      <li>React Basics</li>
+                      <li>State Management</li>
+                      <li>Handling Events and Forms</li>
+                      <li>React Router</li>
+                      <li>React Hooks</li>
+                      <li>State Management Libraries</li>
+                      <li>API Integration</li>
+                      <li>Advanced Topics</li>
                     </ul>
                   </div>
                 </div>
@@ -175,7 +168,7 @@ export default function SolidEngineerSmoll() {
                   </div>
                   <div className="fundamentals-box-card-info">
                     <p>Module</p>
-                    <h6 className="p-0">DevOps & Deployment</h6>
+                    <h6 className="p-0">Back End Development </h6>
                   </div>
                 </div>
               </Accordion.Header>
@@ -183,22 +176,18 @@ export default function SolidEngineerSmoll() {
                 <div className="body">
                   <div className="accordion-body-tittle">
                     <h5 className="text-center mb-0">1 Month</h5>
-                   
                   </div>
                   <div className="accordion-body-info mt-3">
-                    <h5>Module 5 : DevOps & Deployment</h5>
+                    <h5>Module 5 : Back End Development (1 Month)</h5>
                     <ul>
-                      <li>Server & Hosting Basics</li>
-                      <li>Docker Containers</li>
-                      <li>Continuous Integration & Deployment</li>
-                      <li>Cloud Platforms (AWS, Heroku)</li>
-                      <li>Application Monitoring & Logging</li>
-                      <li>Nginx & Apache Configuration</li>
-                      <li>SSL Certificates & HTTPS</li>
-                      <li>Load Balancing & Scalability</li>
-                      <li>Environment Variables & Secrets Management</li>
-                      <li>Automating Deployments with Jenkins</li>
-                      <li>Managing Multi-Environment Deployments</li>
+                      <li>Introduction to Node.js</li>
+                      <li>Building a Basic Server</li>
+                      <li>Asynchronous Programming</li>
+                      <li>Express.js Framework</li>
+                      <li>Middleware</li>
+                      <li>RESTful APIs</li>
+                      <li>Authentication and Authorization</li>
+                      <li>Testing and Debugging</li>
                     </ul>
                   </div>
                 </div>
@@ -213,7 +202,38 @@ export default function SolidEngineerSmoll() {
                   </div>
                   <div className="fundamentals-box-card-info">
                     <p>Module</p>
-                    <h6 className="p-0">Final Project & Career Preparation</h6>
+                    <h6 className="p-0">Database Management  </h6>
+                  </div>
+                </div>
+              </Accordion.Header>
+              <Accordion.Body>
+                <div className="body">
+                  <div className="accordion-body-tittle">
+                    <h5 className="text-center mb-0"> 15 Days </h5>
+                  </div>
+                  <div className="accordion-body-info mt-3">
+                    <h5>Module 6 : Database Management ( 15 Days )</h5>
+                    <ul>
+                      <li>Introduction to MongoDB</li>
+                      <li>Advanced MongoDB for Developers</li>
+                      <li>Data Modelling in MongoDB</li>
+                      <li>Full Stack Development with MongoDB</li>
+                      <li>Build Real World Projects with MongoDB</li>
+                    </ul>
+                  </div>
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+
+            <Accordion.Item eventKey="7">
+              <Accordion.Header className="position-relative">
+                <div className="header-main d-flex align-items-center gap-3">
+                  <div className="header-main-number">
+                    <h1 className="m-0">07</h1>
+                  </div>
+                  <div className="fundamentals-box-card-info">
+                    <p>Module</p>
+                    <h6 className="p-0">Advanced DevOps </h6>
                   </div>
                 </div>
               </Accordion.Header>
@@ -223,18 +243,48 @@ export default function SolidEngineerSmoll() {
                     <h5 className="text-center mb-0">1 Month</h5>
                   </div>
                   <div className="accordion-body-info mt-3">
-                    <h5>Module 6 : Final Project & Career Preparation</h5>
+                    <h5>Module 7 : Advanced DevOps (Month 1)</h5>
                     <ul>
-                      <li>GitHub Portfolio Creation</li>
+                      <li>Github & Bitbucket</li>
+                      <li>Cloud Platforms</li>
+                      <li>AWS Introduction, S3 Bucket, EC2</li>
+                      <li>Website hosting and Deployment</li>
+                      <li>CI/CD Pipeline</li>
+                    </ul>
+                  </div>
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+
+            <Accordion.Item eventKey="8">
+              <Accordion.Header className="position-relative">
+                <div className="header-main d-flex align-items-center gap-3">
+                  <div className="header-main-number">
+                    <h1 className="m-0">08</h1>
+                  </div>
+                  <div className="fundamentals-box-card-info">
+                    <p>Module</p>
+                    <h6 className="p-0">
+                      Final Project & Career Preparation 
+                    </h6>
+                  </div>
+                </div>
+              </Accordion.Header>
+              <Accordion.Body>
+                <div className="body">
+                  <div className="accordion-body-tittle">
+                    <h5 className="text-center mb-0">1 Month</h5>
+                  </div>
+                  <div className="accordion-body-info mt-3">
+                    <h5>
+                      Module 8 : Final Project & Career Preparation (Month 1)
+                    </h5>
+                    <ul>
+                      <li>Full Stack Project Development</li>
                       <li>Interview Preparation</li>
                       <li>Resume Building</li>
-                      <li>Soft Skills Training</li>
-                      <li>Problem-Solving Techniques</li>
-                      <li>Mock Interviews</li>
-                      <li>Collaborative Development & Team Projects</li>
                       <li>Freelancing & Remote Work Tips</li>
                       <li>Networking & Building Industry Connections</li>
-                      <li>Building a Personal Brand in Tech</li>
                     </ul>
                   </div>
                 </div>
@@ -242,17 +292,16 @@ export default function SolidEngineerSmoll() {
             </Accordion.Item>
 
             <div className="fundamentals-box-btn text-center">
-                <a
-                 href="assets/pdf/TechHut.pdf"
-                 download="Curriculum.pdf" 
-                  type="button"
-                  className="btn btn-primary"
-                >
-                  Download Curriculum{" "}
-                  <i className="fa-solid fa-download ms-2"></i>
-                </a>
-              </div>
-
+              <a
+                href="assets/pdf/TechHut.pdf"
+                download="Curriculum.pdf"
+                type="button"
+                className="btn btn-primary"
+              >
+                Download Curriculum{" "}
+                <i className="fa-solid fa-download ms-2"></i>
+              </a>
+            </div>
           </Accordion>
         </div>
       </div>

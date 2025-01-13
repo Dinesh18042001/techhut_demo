@@ -6,9 +6,9 @@ export default function FullStackBlog() {
       <div className="fullstackblog-section mt-4">
         <div className="container">
           <div className="fullstackblog-section-tittle mb-4">
-            <h2>
+            <h1>
               <span>Choose Your Career Path</span> : Full Stack Development or
-              Getting Mastery in Digital Marketing.</h2>
+              Getting Mastery in Digital Marketing.</h1>
               <div className="blog-date">
                 <p>April 7, 2023</p>
               </div>
@@ -27,14 +27,14 @@ export default function FullStackBlog() {
               you? Let's break things down into each so you may confidently take
               your next step.
             </p>
-            <h4>Why Full Stack Development?</h4>
+            <h2>Why Full Stack Development?</h2>
             <p>
               Full Stack Development is the art of building web apps from
               scratch, handling the user interface all the way to the wire of
               the server and database. It is a great career choice if one loves
               problem-solving and has a knack for creating things from scratch.
             </p>
-            <h4>What You'll Learn:</h4>
+            <h2>What You'll Learn:</h2>
             <ul>
               <li>
                 <strong>Front-end Skills</strong> : Design and develop engaging
@@ -98,7 +98,7 @@ export default function FullStackBlog() {
               As more and more businesses go digital, opportunities in this
               field are endless.
             </p>
-            <h4>Which Career Path is Right for You?</h4>
+            <h2>Which Career Path is Right for You?</h2>
             <p>It all depends on your interests and goals.</p>
             <ul>
               <li>
@@ -115,7 +115,7 @@ export default function FullStackBlog() {
               Both fields offer high earning potential, flexible work options,
               and exciting challenges.
             </p>
-            <h4>Turn Your Dream into Reality with TechHut Academy</h4>
+            <h2>Turn Your Dream into Reality with TechHut Academy</h2>
             <p>
               Let us walk you through your career goals step by step at TechHut
               Academy, with mentorship from top MNC professionals, hands-on

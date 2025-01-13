@@ -1,6 +1,6 @@
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css"; 
+import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import { Helmet } from "react-helmet-async";
 
@@ -13,8 +13,8 @@ export default function Mentors() {
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
     navText: [
-      '<i class="fa-solid fa-arrow-left"></i>',
-      '<i class="fa-solid fa-arrow-right"></i>',
+      '<i class="fas fa-arrow-left"></i>',
+      '<i class="fas fa-arrow-right"></i>',
     ],
     responsive: {
       0: {
@@ -39,9 +39,10 @@ export default function Mentors() {
         />
       </Helmet>
 
-      <div className="mentoes-section mt-4 mb-5" id="mentoes">
+      <div className="mentoes-section mt-4 mb-5">
+        <div className="mt-3 mb-5 remove-padding"> &nbsp;</div>
         <div className="container">
-          <div className="mentoes-section-tittle mb-5">
+          <div className="mentoes-section-tittle mb-5 mt-5">
             <h2 className="text-center">
               Meet Our Inspirational <span>Mentors</span>
             </h2>
@@ -72,7 +73,11 @@ export default function Mentors() {
                 </div>
 
                 <div className="mentoes-card-linkedin">
-                  <a href="#">
+                  <a
+                    href="https://www.linkedin.com/in/virindra-singh-82399a65/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img src="./assets/Mentors/linkedin.png" alt="" />
                   </a>
                 </div>
@@ -98,7 +103,8 @@ export default function Mentors() {
                 </div>
 
                 <div className="mentoes-card-linkedin">
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/mahendra-singh-10928721/" target="_blank"
+                    rel="noopener noreferrer">
                     <img src="./assets/Mentors/linkedin.png" alt="" />
                   </a>
                 </div>
@@ -124,7 +130,8 @@ export default function Mentors() {
                 </div>
 
                 <div className="mentoes-card-linkedin">
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/simpy-gupta-b49b0370/" target="_blank"
+                    rel="noopener noreferrer">
                     <img src="./assets/Mentors/linkedin.png" alt="" />
                   </a>
                 </div>
@@ -138,7 +145,7 @@ export default function Mentors() {
                     <img src="./assets/Mentors/img4.jpeg" alt="" />
                   </div>
                   <div className="mentoes-card-name">
-                    <h6>Akshat Gupta</h6>
+                    <h6>Manish Gupta</h6>
                     <p>2+ years experience</p>
                     <p>Software Engineer</p>
                   </div>
@@ -146,11 +153,12 @@ export default function Mentors() {
                 <hr />
 
                 <div className="mentoes-card-company d-flex justify-content-center mb-2">
-                  <img src="./assets/Mentors/phonepe.png" alt="" />
+                  <img src="./assets/Mentors/techmahindra.png" alt="" />
                 </div>
 
                 <div className="mentoes-card-linkedin">
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/manish-gupta-174b31136/" target="_blank"
+                    rel="noopener noreferrer">
                     <img src="./assets/Mentors/linkedin.png" alt="" />
                   </a>
                 </div>

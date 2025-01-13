@@ -6,10 +6,10 @@ export default function PsychologyBlog() {
       <div className="fullstackblog-section mt-4">
         <div className="container">
           <div className="fullstackblog-section-tittle mb-4">
-            <h2>
+            <h1>
               Exploring the <span>Psychology</span> of High-Impact Content
               Marketing
-            </h2>
+            </h1>
             <div className="blog-date">
               <p>November 30, 2024</p>
             </div>
@@ -31,7 +31,7 @@ export default function PsychologyBlog() {
               learn what makes high-impact content just so unforgettable? Let's
               dive in.
             </p>
-            <h4>Emotional Connection: Tuning in to the Feelings That Matter</h4>
+            <h2>Emotional Connection: Tuning in to the Feelings That Matter</h2>
             <p>It's more about emotions than just facts and figures.</p>
             <p>
               Think of the last ad that made you laugh or even tear up. That's
@@ -42,7 +42,7 @@ export default function PsychologyBlog() {
               connections. This bond could make casual viewers loyal followers,
               coming back for more because they feel understood.
             </p>
-            <h4>The Magic of Storytelling: Everyone Loves a Good Story</h4>
+            <h2>The Magic of Storytelling: Everyone Loves a Good Story</h2>
             <p>
               We seem to be wired to love stories, be it movies, books, or even
               simple online posts. That is how stories command the attention of
@@ -55,7 +55,7 @@ export default function PsychologyBlog() {
               trust and loyalty will build in audiences and eventually be
               shared.
             </p>
-            <h4>Personalization: Addressing Each Individual Directly</h4>
+            <h2>Personalization: Addressing Each Individual Directly</h2>
             <p>
               Today, in the digital era, the whole world is bespoke. People
               don't want to be viewed as just a number. It speaks to a deeper
@@ -67,7 +67,7 @@ export default function PsychologyBlog() {
               all that tends to make people much more prepared to engage with
               and finally trust a brand on a level that's hard to break.
             </p>
-            <h4>The Power of Visuals: Seeing Is Believing</h4>
+            <h2>The Power of Visuals: Seeing Is Believing</h2>
             <p>
               Do you know that humans process visuals 60,000 times faster than
               text? That's probably the reason why engaging visuals, such as
@@ -78,7 +78,7 @@ export default function PsychologyBlog() {
               of visual storytelling, capturing interest and making the message
               stick.
             </p>
-            <h4>Ready to Master the Art of Memorable Content?</h4>
+            <h2>Ready to Master the Art of Memorable Content?</h2>
             <p>
               Understanding the psychology of high-impact content marketing
               helps brands get in touch with audiences in ways that are both

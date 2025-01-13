@@ -58,7 +58,7 @@ export default function ProgramCard() {
                     </div>
                   </div>
                   <div className="main-program-card-footer-btn">
-                    <Link to="/fullstackdevelopment">
+                    <Link to="/full-stack-development">
                       Learn More{" "}
                       <span className="ms-2">
                         <i className="fa-solid fa-chevron-right"></i>
