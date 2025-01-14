@@ -18,6 +18,7 @@ export default function Mentorship() {
         </div>
 
         <div className="row">
+
           <div className="col-lg-4 col-md-6 col-12 mb-4">
             <div className="mentorship-card position-relative">
               <div className="mentorship-card-info">
@@ -26,12 +27,15 @@ export default function Mentorship() {
                 Learn from experienced mentors working in leading multinational companies.🌟
                 </p>
               </div>
-              <div className="mentorship-card-img">
-                <img src="./assets/mentorship/img1.svg" alt="" />
-              </div>
+            
               <div className="mentorship-card-icon">
-                <img src="./assets/mentorship/card-icon1.svg" alt="" />
+                <img src="./assets/mentorship/main-icon-1.svg" alt="" />
               </div>
+
+              <div className="mentorship-card-icon-btn">
+                <a href="#">Know  More <i class="fa-solid fa-chevron-right ms-1"></i></a> 
+              </div>
+             
             </div>
           </div>
 
@@ -39,16 +43,19 @@ export default function Mentorship() {
             <div className="mentorship-card position-relative">
               <div className="mentorship-card-info">
                 <h5>Doubt Session 🎯 🚀</h5>
-                <p>
+                <p >
                 Get personalized guidance and have all your queries resolved in dedicated sessions. 🎯
                 </p>
               </div>
-              <div className="mentorship-card-img">
-                <img src="./assets/mentorship/img2.svg" alt="" />
+            
+              <div className="mentorship-card-icon ">
+                <img className="mentorship-card-icon2" src="./assets/mentorship/main-icon-2.svg" alt="" />
               </div>
-              <div className="mentorship-card-icon">
-                <img src="./assets/mentorship/card-icon2.svg" alt="" />
+
+              <div className="mentorship-card-icon-btn">
+                <a href="#">Know  More <i class="fa-solid fa-chevron-right ms-1"></i></a> 
               </div>
+             
             </div>
           </div>
 
@@ -56,33 +63,39 @@ export default function Mentorship() {
             <div className="mentorship-card position-relative">
               <div className="mentorship-card-info">
                 <h5>Mock Interview 📄 ✨</h5>
-                <p className="mb-3">
+                <p >
                 Prepare confidently with real-world mock interviews tailored for IT roles. ✨
                 </p>
               </div>
-              <div className="mentorship-card-img">
-                <img src="./assets/mentorship/img3.svg" alt="" />
-              </div>
+            
               <div className="mentorship-card-icon">
-                <img src="./assets/mentorship/card-icon3.svg" alt="" />
+                <img className="mentorship-card-icon3" src="./assets/mentorship/main-icon-3.svg" alt="" />
               </div>
+
+              <div className="mentorship-card-icon-btn">
+                <a href="#">Know  More <i class="fa-solid fa-chevron-right ms-1"></i></a> 
+              </div>
+             
             </div>
           </div>
-
+        
           <div className="col-lg-4 col-md-6 col-12 mb-4">
             <div className="mentorship-card position-relative">
               <div className="mentorship-card-info">
                 <h5>IT Certificate 💬</h5>
-                <p>
+                <p >
                 Earn industry-recognized certifications to boost your professional credentials. 💬
                 </p>
               </div>
-              <div className="mentorship-card-img">
-                <img src="./assets/mentorship/img4.svg" alt="" />
-              </div>
+            
               <div className="mentorship-card-icon">
-                <img src="./assets/mentorship/card-icon3.svg" alt="" />
+                <img className="mentorship-card-icon4" src="./assets/mentorship/main-icon-4.svg" alt="" />
               </div>
+
+              <div className="mentorship-card-icon-btn">
+                <a href="#">Know  More <i class="fa-solid fa-chevron-right ms-1"></i></a> 
+              </div>
+             
             </div>
           </div>
 
@@ -90,33 +103,43 @@ export default function Mentorship() {
             <div className="mentorship-card position-relative">
               <div className="mentorship-card-info">
                 <h5>100% Placement Assistance 📅 </h5>
-                <p>Receive comprehensive support to secure your dream job in IT 🤓</p>
+                <p >
+                Receive comprehensive support to secure your dream job in IT 🤓
+                </p>
               </div>
-              <div className="mentorship-card-img">
-                <img src="./assets/mentorship/img5.svg" alt="" />
-              </div>
+            
               <div className="mentorship-card-icon">
-                <img src="./assets/mentorship/card-icon2.svg" alt="" />
+                <img className="mentorship-card-icon5" src="./assets/mentorship/main-icon-5.svg" alt="" />
               </div>
+
+              <div className="mentorship-card-icon-btn">
+                <a href="#">Know  More <i class="fa-solid fa-chevron-right ms-1"></i></a> 
+              </div>
+             
             </div>
           </div>
 
           <div className="col-lg-4 col-md-6 col-12 mb-4">
             <div className="mentorship-card position-relative">
               <div className="mentorship-card-info">
-                <h5>Live Project 🔍</h5>
-                <p>
+                <h5>Live Project 🔍 </h5>
+                <p >
                 Gain hands-on experience by working on real-time industry projects 🎙️
                 </p>
               </div>
-              <div className="mentorship-card-img">
-                <img src="./assets/mentorship/img6.svg" alt="" />
-              </div>
+            
               <div className="mentorship-card-icon">
-                <img src="./assets/mentorship/card-icon1.svg" alt="" />
+                <img src="./assets/mentorship/main-icon-6.svg" alt="" />
               </div>
+
+              <div className="mentorship-card-icon-btn">
+                <a href="#">Know  More <i class="fa-solid fa-chevron-right ms-1"></i></a> 
+              </div>
+             
             </div>
           </div>
+          
+
         </div>
       </div>
     </div>

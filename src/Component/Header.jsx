@@ -87,7 +87,7 @@ export default function Header() {
         <div className="container">
           <div className="logo">
             <Link onClick={() => doRedirect('#home')}>
-              <img src="./assets/img/logo.png" alt="Logo" />
+              <img src="./assets/img/logo.svg" alt="Logo" />
             </Link>
           </div>
 
@@ -118,11 +118,39 @@ export default function Header() {
           {/* Main navigation links */}
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-lg-0">
+
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page"  onClick={() => doRedirect('#home')}>
-                  <i className="fa-solid fa-house"></i>
-                </Link>
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  // href="#mentors"
+                  onClick={() => doRedirect('#home')}
+                >
+                  Home
+                </a>
               </li>
+              <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="mobileServicesDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Courses
+                  </a>
+                  <ul class="drop_down">
+                    <Link className="dropdown-item mb-2" to="/full-stack-development">
+                    Full Stack Development
+                    </Link>
+                    <Link className="dropdown-item mb-2" to="#">
+                    Data Science/AI 
+                    </Link>
+                  </ul>
+                </li>
+
+              
 
               <li className="nav-item">
                 <a
@@ -135,81 +163,21 @@ export default function Header() {
                   Mentors
                 </a>
               </li>
-
-              <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/full-stack-development"
-                >
-                  Program
-                </Link>
-              </li>
-
-              {/* <li className="nav-item dropdown">
-                <Link
-                  className="nav-link dropdown-toggle"
-                  to="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Courses
-                </Link>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <Link className="dropdown-item" to="/fullstackdevelopment">
-                      full stack development
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className="dropdown-item"
-                      to="/digitalmarketingdevelopment"
-                      style={{ pointerEvents: "none", color: "gray" }}
-                    >
-                      Digital Marketing
-                    </Link>
-                  </li>
-                </ul>
-              </li> */}
-
-              {/* <li className="nav-item">
-                <a
-                  className="nav-link active"
-                  aria-current="page"
-                  href="#features"
-                >
-                  Features
-                </a>
-              </li> */}
-
               <li className="nav-item">
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  // href="#placements"
-                  onClick={() => doRedirect('#placements')}
                 >
-                  Placements
+                 Program benefits
                 </a>
               </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/blogs"
-                >
-                  Blog
-                </Link>
-              </li>
+
             </ul>
 
             {/* Contact Us button */}
             <div className="callbtn main-btn2">
               <a href="#" data-bs-toggle="modal" data-bs-target="#applyModal">
-                Contact Us <i className="fa-solid fa-phone ms-1"></i>
+              Apply Free Counselling 
               </a>
             </div>
           </div>
@@ -261,42 +229,6 @@ export default function Header() {
                 Program
               </Link>
             </li>
-
-            {/* <li className="nav-item dropdown">
-                <Link
-                  className="nav-link dropdown-toggle"
-                  to="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Courses
-                </Link>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <Link className="dropdown-item" to="/fullstackdevelopment">
-                      full stack development
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className="dropdown-item"
-                      to="/digitalmarketingdevelopment"
-                      style={{ pointerEvents: "none", color: "gray" }}
-                    >
-                      Digital Marketing
-                    </Link>
-                  </li>
-                </ul>
-              </li> */}
-
-            {/* <li className="nav-item">
-              <Link className="nav-link" to="#career" id="toggle-tab">
-                Features
-              </Link>
-            </li> */}
-
             <li className="nav-item">
               <a className="nav-link"
                 onClick={() => doRedirect('#placements')}

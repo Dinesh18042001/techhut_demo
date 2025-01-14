@@ -8,141 +8,176 @@ export default function ProgramCard() {
         {/* Row with cards */}
         <div className="row justify-content-center">
           {/* Card 1: Full Stack Development */}
-          <div className="col-lg-6 d-flex justify-content-center align-items-center mb-4">
-            <div className="main-program-card position-relative">
+
+          <div className="col-lg-6 d-flex justify-content-center align-items-center mb-4 ">
+            <div className="main-program-card position-relative h-100">
               <div className="main-program-card-tittle position-relative">
                 <div className="main-program-card-tittle-img">
                   <img src="./assets/programcard/card-tittle.webp" alt="" />
-                </div>
-                <div className="main-program-card-tittle-icon">
-                  <img src="./assets/programcard/tittle-icon1.svg" alt="" />
                 </div>
               </div>
               <div className="main-program-card-body p-3">
                 <div className="card-name">
-                  <h4 className="m-0">Full Stack Development</h4>
+                  <h4 className="m-0">
+                    Full Stack Specialization (MERN) in Software Development
+                  </h4>
                 </div>
-                <hr />
                 <div className="main-program-card-body-info">
-                  <h6 className="mb-2">Program Highlights</h6>
-                  <ul>
-                    <li>Front End: HTML, CSS, JavaScript</li>
-                    <li>Back End: Nodejs, Python</li>
-                    <li>Databases: SQL, NoSQL(MySQL, MongoDB)</li>
-                    <li>APIs</li>
-                    <li>Deployment: AWS, Docker</li>
-                    <li>Live Projects</li>
-                  </ul>
+                  <h6 className="mb-2 mt-2">Program Highlights</h6>
+                  <p>
+                    <img
+                      className="me-2"
+                      src="./assets/programcard/arrow.svg"
+                      alt=""
+                    />
+                    Front End: HTML, CSS, JavaScript
+                  </p>
+                  <p>
+                    <img
+                      className="me-2"
+                      src="./assets/programcard/arrow.svg"
+                      alt=""
+                    />
+                    Back End: Nodejs, Python
+                  </p>
+                  <p>
+                    <img
+                      className="me-2"
+                      src="./assets/programcard/arrow.svg"
+                      alt=""
+                    />
+                    Databases: SQL, NoSQL(MySQL, MongoDB)
+                  </p>
+                  <p>
+                    <img
+                      className="me-2"
+                      src="./assets/programcard/arrow.svg"
+                      alt=""
+                    />
+                    APIs
+                  </p>
+                  <p>
+                    <img
+                      className="me-2"
+                      src="./assets/programcard/arrow.svg"
+                      alt=""
+                    />
+                    Deployment: AWS, Docker
+                  </p>
+                  <p>
+                    <img
+                      className="me-2"
+                      src="./assets/programcard/arrow.svg"
+                      alt=""
+                    />
+                    Live Projects
+                  </p>
                 </div>
                 <hr />
-                <div className="main-program-card-footer d-flex justify-content-between align-items-center">
-                  <div className="main-program-card-footer-icon">
-                    <p className="mb-2">Instructor from</p>
-                    <div className="footer-icons">
-                      <img
-                        src="./assets/programcard/facebook.svg"
-                        alt="facebook"
-                      />
-                      <img
-                        src="./assets/programcard/microsoft.svg"
-                        alt="microsoft"
-                      />
-                      <img
-                        src="./assets/programcard/apple.svg"
-                        alt="apple"
-                      />
-                      <img
-                        src="./assets/programcard/google.svg"
-                        alt="google"
-                      />
-                    </div>
-                  </div>
-                  <div className="main-program-card-footer-btn">
-                    <Link to="/full-stack-development">
-                      Learn More{" "}
-                      <span className="ms-2">
-                        <i className="fa-solid fa-chevron-right"></i>
-                      </span>
-                    </Link>
+
+                <div className="batch-start-box d-flex justify-content-between align-items-center mb-4 mt-4">
+                  <p>Next batch starting from</p>
+
+                  <div className="date">
+                    <p>01/24/25</p>
                   </div>
                 </div>
-              </div>
-              <div className="bg-icon">
-                <img src="./assets/programcard/bg-icon-one.svg" alt="" />
+
+                <div className="main-program-card-footer d-flex flex-wrap justify-content-between align-items-center">
+                  <div className="main-program-card-footer-btn1 text-center mb-2">
+                    <Link to="/full-stack-development">Learn More</Link>
+                  </div>
+                  <div className="main-program-card-footer-btn2 text-center mb-2">
+                    <Link to="#">Apply for Free Counselling</Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-
-          {/* Card 2: Digital Marketer */}
-          {/* <div className="col-lg-6 d-flex justify-content-center align-items-center mb-4">
-            <div className="main-program-card position-relative">
+          {/* Card 2: Data Science/AI  */}
+          <div className="col-lg-6 d-flex justify-content-center align-items-center mb-4">
+            <div className="main-program-card position-relative h-100">
               <div className="main-program-card-tittle position-relative">
                 <div className="main-program-card-tittle-img">
-                  <img src="./assets/programcard/card-tittle.webp" alt="" />
-                </div>
-                <div className="main-program-card-tittle-icon">
-                  <img src="./assets/programcard/tittle-icon2.svg" alt="" />
+                  <img src="./assets/programcard/card-tittle2.webp" alt="" />
                 </div>
               </div>
               <div className="main-program-card-body p-3">
-                <div className="card-name d-flex justify-content-between">
-                  <h4 className="m-0">Digital Marketer</h4>
-                  <p>Coming soon</p>
+                <div className="card-name">
+                  <h4 className="m-0">Data Science/AI</h4>
                 </div>
-                <hr />
                 <div className="main-program-card-body-info">
-                  <h6 className="mb-2">Program Highlights</h6>
-                  <ul>
-                    <li>Search Engine Optimization</li>
-                    <li>Social Media</li>
-                    <li>Content Marketing</li>
-                    <li>PPC Advertising</li>
-                    <li>Analytics</li>
-                    <li>Live Projects</li>
-                  </ul>
+                  <h6 className="mb-2 mt-2">Program Highlights</h6>
+                  <p>
+                    <img
+                      className="me-2"
+                      src="./assets/programcard/arrow.svg"
+                      alt=""
+                    />
+                    Front End: HTML, CSS, JavaScript
+                  </p>
+                  <p>
+                    <img
+                      className="me-2"
+                      src="./assets/programcard/arrow.svg"
+                      alt=""
+                    />
+                    Back End: Nodejs, Python
+                  </p>
+                  <p>
+                    <img
+                      className="me-2"
+                      src="./assets/programcard/arrow.svg"
+                      alt=""
+                    />
+                    Databases: SQL, NoSQL(MySQL, MongoDB)
+                  </p>
+                  <p>
+                    <img
+                      className="me-2"
+                      src="./assets/programcard/arrow.svg"
+                      alt=""
+                    />
+                    APIs
+                  </p>
+                  <p>
+                    <img
+                      className="me-2"
+                      src="./assets/programcard/arrow.svg"
+                      alt=""
+                    />
+                    Deployment: AWS, Docker
+                  </p>
+                  <p>
+                    <img
+                      className="me-2"
+                      src="./assets/programcard/arrow.svg"
+                      alt=""
+                    />
+                    Live Projects
+                  </p>
                 </div>
                 <hr />
-                <div className="main-program-card-footer d-flex justify-content-between align-items-center">
-                  <div className="main-program-card-footer-icon">
-                    <p className="mb-2">Instructor from</p>
-                    <div className="footer-icons">
-                      <img
-                        src="./assets/programcard/facebook.svg"
-                        alt="facebook"
-                      />
-                      <img
-                        src="./assets/programcard/microsoft.svg"
-                        alt="microsoft"
-                      />
-                      <img
-                        src="./assets/programcard/apple.svg"
-                        alt="apple"
-                      />
-                      <img
-                        src="./assets/programcard/google.svg"
-                        alt="google"
-                      />
-                    </div>
-                  </div>
-                  <div className="main-program-card-footer-btn">
-                    <button
-                      className="btn btn-link"
-                      disabled
-                      style={{
-                        cursor: "not-allowed",
-                        color: "#6c757d", // Disabled color
-                      }}
-                    >
-                      Learn More
-                    </button>
+
+                <div className="batch-start-box d-flex justify-content-between align-items-center mb-4 mt-4">
+                  <p>Next batch starting from</p>
+
+                  <div className="date">
+                    <p>01/24/25</p>
                   </div>
                 </div>
-              </div>
-              <div className="bg-icon">
-                <img src="./assets/programcard/bg-icon-two.svg" alt="" />
+
+                <div className="main-program-card-footer d-flex flex-wrap justify-content-between align-items-center">
+                  <div className="main-program-card-footer-btn1 text-center mb-2">
+                    <Link to="/full-stack-development">Learn More</Link>
+                  </div>
+                  <div className="main-program-card-footer-btn2 text-center mb-2">
+                    <Link to="#">Apply for Free Counselling</Link>
+                  </div>
+                </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
