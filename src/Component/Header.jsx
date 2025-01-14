@@ -32,7 +32,6 @@ export default function Header() {
     };
     window.addEventListener("scroll", handleScroll);
 
-    // Cleanup scroll event listener
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -42,7 +41,6 @@ export default function Header() {
     const offcanvasElement = document.getElementById("offcanvasNavbar");
     const offcanvas = new Offcanvas(offcanvasElement);
 
-    // Close the off-canvas when any of the links are clicked
     const toggleLinks = document.querySelectorAll("#toggle-tab");
     toggleLinks.forEach((link) => {
       link.addEventListener("click", () => {
@@ -50,25 +48,24 @@ export default function Header() {
       });
     });
 
-    // Remove the offcanvas-backdrop when off-canvas is hidden
+
     const handleBackdropRemoval = () => {
       const backdrop = document.querySelector(".offcanvas-backdrop");
       if (backdrop) {
         backdrop.classList.remove("show");
-        backdrop.remove(); // Completely remove the backdrop element
+        backdrop.remove(); 
       }
     };
 
-    // Listen for the off-canvas to be hidden and remove the backdrop
+
     offcanvasElement.addEventListener(
       "hidden.bs.offcanvas",
       handleBackdropRemoval
     );
     
-    // Cleanup event listeners on unmount
+
     return () => {
       toggleLinks.forEach((link) => {
-        // link.removeEventListener("click", () => offcanvas.hide());
       });
       offcanvasElement.removeEventListener(
         "hidden.bs.offcanvas",
@@ -87,7 +84,8 @@ export default function Header() {
         <div className="container">
           <div className="logo">
             <Link onClick={() => doRedirect('#home')}>
-              <img src="./assets/img/logo.svg" alt="Logo" />
+              <img src="./assets/img/logo.png" alt="Logo" />
+              <p className="mt-1 mb-1" >Where Learning Meets Opportunity</p>
             </Link>
           </div>
 
@@ -141,10 +139,10 @@ export default function Header() {
                     Courses
                   </a>
                   <ul class="drop_down">
-                    <Link className="dropdown-item mb-2" to="/full-stack-development">
+                    <Link className="dropdown-item mb-3 mt-3" to="/full-stack-development">
                     Full Stack Development
                     </Link>
-                    <Link className="dropdown-item mb-2" to="#">
+                    <Link className="dropdown-item mb-3" to="#">
                     Data Science/AI 
                     </Link>
                   </ul>
