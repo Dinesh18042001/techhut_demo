@@ -16,14 +16,13 @@ export default function Questions() {
 
       <Container>
         <Row>
-          {/* Right Column */}
-          <Col lg={6}>
+          <Col lg={6} className=" mb-3">
             <div className="accordion-main">
               <Accordion defaultActiveKey="0">
-                {/* Accordion Item 1 */}
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>
-                    What courses does <span className="ms-1"> TechHut Academy offer?</span>
+                    What courses does
+                  TechHut Academy offer?
                   </Accordion.Header>
                   <Accordion.Body>
                     TechHut Academy provides courses in{" "}
@@ -32,10 +31,10 @@ export default function Questions() {
                   </Accordion.Body>
                 </Accordion.Item>
 
-                {/* Accordion Item 2 */}
                 <Accordion.Item eventKey="1">
                   <Accordion.Header>
-                    Are the courses <span className="ms-1"> suitable for beginners?</span>
+                    Are the courses
+                    suitable for beginners?
                   </Accordion.Header>
                   <Accordion.Body>
                     <strong>Yes,</strong> all the courses are designed for{" "}
@@ -44,10 +43,10 @@ export default function Questions() {
                   </Accordion.Body>
                 </Accordion.Item>
 
-                {/* Accordion Item 3 */}
                 <Accordion.Item eventKey="2">
                   <Accordion.Header>
-                    What is the duration of <span className="ms-1"> each course?</span>
+                    What is the duration of
+                     each course?
                   </Accordion.Header>
                   <Accordion.Body>
                     Course durations are <strong>6 to 7 months</strong>, but we
@@ -56,10 +55,10 @@ export default function Questions() {
                   </Accordion.Body>
                 </Accordion.Item>
 
-                {/* Accordion Item 4 */}
                 <Accordion.Item eventKey="3">
                   <Accordion.Header>
-                    Do the courses include <span className="ms-1"> hands-on projects?</span>
+                    Do the courses include
+                   hands-on projects?
                   </Accordion.Header>
                   <Accordion.Body>
                     <strong>Yes,</strong> practical projects are incorporated to
@@ -67,10 +66,10 @@ export default function Questions() {
                   </Accordion.Body>
                 </Accordion.Item>
 
-                {/* Accordion Item 5 */}
                 <Accordion.Item eventKey="4">
                   <Accordion.Header>
-                    Is there a certificate upon <span className="ms-1"> course completion?</span>
+                    Is there a certificate upon
+                     course completion?
                   </Accordion.Header>
                   <Accordion.Body>
                     <strong>Yes,</strong> certificates are awarded after
@@ -81,19 +80,11 @@ export default function Questions() {
             </div>
           </Col>
 
-          {/* Left Column */}
           <Col lg={6}>
             <div className="question-main">
-              {/* <h2 className="text-center">
-                Frequently Asked <span>Questions</span>
-              </h2>
-              <p className="text-center">
-                Explore more about how TechHut can help you grow your skills
-                and achieve great heights.
-              </p> */}
               <div className="question-img">
                 <img
-                  src="./assets/question/question.png"
+                  src="./assets/question/question.svg"
                   alt="FAQ Illustration"
                 />
               </div>
