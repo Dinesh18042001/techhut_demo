@@ -79,7 +79,7 @@ export default function ProgramCard() {
                   <p>Next batch starting from</p>
 
                   <div className="date">
-                    <p>01/24/25</p>
+                    <p>Feb 28, 2025</p>
                   </div>
                 </div>
 
@@ -88,7 +88,7 @@ export default function ProgramCard() {
                     <Link to="/full-stack-development">Learn More</Link>
                   </div>
                   <div className="main-program-card-footer-btn2 text-center mb-2">
-                    <Link to="#">Apply for Free Counselling</Link>
+                    <Link to="#">Enroll Now</Link>
                   </div>
                 </div>
               </div>
@@ -103,7 +103,7 @@ export default function ProgramCard() {
                 </div>
               </div>
               <div className="main-program-card-body p-3">
-                <div className="card-name">
+                <div className="card-name card-name2">
                   <h4 className="m-0">Data Science/AI</h4>
                 </div>
                 <div className="main-program-card-body-info">
@@ -163,7 +163,7 @@ export default function ProgramCard() {
                   <p>Next batch starting from</p>
 
                   <div className="date">
-                    <p>01/24/25</p>
+                    <p>Feb 28, 2025</p>
                   </div>
                 </div>
 
@@ -172,7 +172,7 @@ export default function ProgramCard() {
                     <Link to="/full-stack-development">Learn More</Link>
                   </div>
                   <div className="main-program-card-footer-btn2 text-center mb-2">
-                    <Link to="#">Apply for Free Counselling</Link>
+                    <Link to="#">Enroll Now</Link>
                   </div>
                 </div>
               </div>

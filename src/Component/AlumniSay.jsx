@@ -42,8 +42,9 @@ export default function AlumniSay() {
 
         {/* Owl Carousel */}
         <OwlCarousel className="owl-theme" {...options}>
-          <div className="item h-100">
-            <div className="alumuisay-card mb-4 h-100 position-relative">
+          
+          <div className="item">
+            <div className="alumuisay-card mb-4 position-relative">
 
               <div className="alumuisay-card-tittle d-flex align-items-center">
                 <div className="alumuisay-card-tittle-img me-3">
@@ -83,8 +84,8 @@ export default function AlumniSay() {
             </div>
           </div>
 
-          <div className="item h-100">
-            <div className="alumuisay-card mb-4 h-100">
+          <div className="item ">
+            <div className="alumuisay-card mb-4 ">
               <div className="alumuisay-card-tittle d-flex align-items-center">
                 <div className="alumuisay-card-tittle-img me-3">
                   <img src="./assets/AlumniSay/img2.jpg" alt="" />
@@ -119,8 +120,8 @@ export default function AlumniSay() {
             </div>
           </div>
 
-          <div className="item h-100">
-            <div className="alumuisay-card mb-4 h-100">
+          <div className="item ">
+            <div className="alumuisay-card mb-4 ">
               <div className="alumuisay-card-tittle d-flex align-items-center">
                 <div className="alumuisay-card-tittle-img me-3">
                   <img src="./assets/AlumniSay/img3.jpg" alt="" />
@@ -154,8 +155,8 @@ export default function AlumniSay() {
             </div>
           </div>
 
-          <div className="item h-100">
-            <div className="alumuisay-card mb-4 h-100">
+          <div className="item">
+            <div className="alumuisay-card mb-4">
               <div className="alumuisay-card-tittle d-flex align-items-center">
                 <div className="alumuisay-card-tittle-img me-3">
                   <img src="./assets/AlumniSay/img4.jpg" alt="" />
@@ -189,8 +190,8 @@ export default function AlumniSay() {
             </div>
           </div>
 
-          <div className="item h-100">
-            <div className="alumuisay-card mb-4 h-100">
+          <div className="item ">
+            <div className="alumuisay-card mb-4 ">
               <div className="alumuisay-card-tittle d-flex align-items-center">
                 <div className="alumuisay-card-tittle-img me-3">
                   <img src="./assets/AlumniSay/img5.jpg" alt="" />
@@ -222,8 +223,8 @@ export default function AlumniSay() {
             </div>
           </div>
 
-          <div className="item h-100">
-            <div className="alumuisay-card mb-4 h-100">
+          <div className="item ">
+            <div className="alumuisay-card mb-4">
               <div className="alumuisay-card-tittle d-flex align-items-center">
                 <div className="alumuisay-card-tittle-img me-3">
                   <img src="./assets/AlumniSay/img6.jpg" alt="" />
@@ -257,8 +258,8 @@ export default function AlumniSay() {
             </div>
           </div>
 
-          <div className="item h-100">
-            <div className="alumuisay-card mb-4 h-100">
+          <div className="item ">
+            <div className="alumuisay-card mb-4">
               <div className="alumuisay-card-tittle d-flex align-items-center">
                 <div className="alumuisay-card-tittle-img me-3">
                   <img src="./assets/AlumniSay/img7.jpg" alt="" />
@@ -292,8 +293,8 @@ export default function AlumniSay() {
             </div>
           </div>
 
-          <div className="item h-100">
-            <div className="alumuisay-card mb-4 h-100">
+          <div className="item ">
+            <div className="alumuisay-card mb-4 ">
               <div className="alumuisay-card-tittle d-flex align-items-center">
                 <div className="alumuisay-card-tittle-img me-3">
                   <img src="./assets/AlumniSay/img8.jpg" alt="" />
@@ -326,8 +327,8 @@ export default function AlumniSay() {
             </div>
           </div>
 
-          <div className="item h-100">
-            <div className="alumuisay-card mb-4 h-100">
+          <div className="item ">
+            <div className="alumuisay-card mb-4 ">
               <div className="alumuisay-card-tittle d-flex align-items-center">
                 <div className="alumuisay-card-tittle-img me-3">
                   <img src="./assets/AlumniSay/img9.jpg" alt="" />
@@ -357,6 +358,7 @@ export default function AlumniSay() {
               </div>
             </div>
           </div>
+
         </OwlCarousel>
       </div>
     </div>

@@ -73,7 +73,7 @@ export default function Banner() {
                 <div className="col-md-4 col-12 mb-4">
                   <div className="banner-icon-box d-flex justify-content-center align-items-center">
                     <span>
-                      <i className="fa-solid fa-microscope icon2"></i>
+                    <i class="fa-solid fa-pen-nib"></i>
                     </span>
                     <h6 className="ms-2">
                       Experience HR workshops and mock tests.
@@ -84,7 +84,7 @@ export default function Banner() {
                 <div className="col-md-4 col-12 mb-4">
                   <div className="banner-icon-box d-flex justify-content-center align-items-center">
                     <span>
-                      <i className="fa-solid fa-medal"></i>
+                    <i class="fa-regular fa-face-smile"></i>
                     </span>
                     <h6 className="ms-2">
                       Team up with mentors from top MNCs.

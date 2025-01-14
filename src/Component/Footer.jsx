@@ -13,13 +13,13 @@ export default function Footer() {
 
                 <div className="footer-socal text-center d-flex  mt-3 mb-3">
                   <Link to="https://www.facebook.com/techhutacademy/" target="_blank" className="mx-1">
-                    <img src="./assets/footer/facebook.png" alt="Facebook" />
+                  <i class="fa-brands fa-facebook-f"></i>
                   </Link>
                   <Link to="https://www.instagram.com/techhutacademy/" target="_blank" className="mx-1">
-                    <img src="./assets/footer/instagram.png" alt="Instagram" />
+                  <i class="fa-brands fa-instagram"></i>
                   </Link>
                   <Link to="https://www.linkedin.com/company/techhutacademy/" target="_blank" className="mx-1">
-                    <img src="./assets/footer/linkedin.png" alt="LinkedIn" />
+                  <i class="fa-brands fa-linkedin-in"></i>
                   </Link>
                 </div>
               </div>
@@ -28,16 +28,16 @@ export default function Footer() {
             <div className="col-lg-2 custom-col ">
 
               <div className="footer-link mb-3">
-                <div className="main-link">
+                <div className="main-link mb-2">
                   <a href="#">Courses</a>
                 </div>
-                <div className="main-link">
+                <div className="main-link mb-2">
                   <a href="#">Mentors</a>
                 </div>
-                <div className="main-link">
+                <div className="main-link mb-2">
                   <a href="#">Program Benefits</a>
                 </div>
-                <div className="main-link">
+                <div className="main-link mb-2">
                   <a href="#">Blog</a>
                 </div>
               </div>

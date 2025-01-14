@@ -21,8 +21,7 @@ export default function Questions() {
               <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>
-                    What courses does
-                  TechHut Academy offer?
+                    What courses does TechHut Academy offer?
                   </Accordion.Header>
                   <Accordion.Body>
                     TechHut Academy provides courses in{" "}
@@ -33,8 +32,7 @@ export default function Questions() {
 
                 <Accordion.Item eventKey="1">
                   <Accordion.Header>
-                    Are the courses
-                    suitable for beginners?
+                    Are the courses suitable for beginners?
                   </Accordion.Header>
                   <Accordion.Body>
                     <strong>Yes,</strong> all the courses are designed for{" "}
@@ -45,8 +43,7 @@ export default function Questions() {
 
                 <Accordion.Item eventKey="2">
                   <Accordion.Header>
-                    What is the duration of
-                     each course?
+                    What is the duration of each course?
                   </Accordion.Header>
                   <Accordion.Body>
                     Course durations are <strong>6 to 7 months</strong>, but we
@@ -57,8 +54,7 @@ export default function Questions() {
 
                 <Accordion.Item eventKey="3">
                   <Accordion.Header>
-                    Do the courses include
-                   hands-on projects?
+                    Do the courses include hands-on projects?
                   </Accordion.Header>
                   <Accordion.Body>
                     <strong>Yes,</strong> practical projects are incorporated to
@@ -68,8 +64,7 @@ export default function Questions() {
 
                 <Accordion.Item eventKey="4">
                   <Accordion.Header>
-                    Is there a certificate upon
-                     course completion?
+                    Is there a certificate upon course completion?
                   </Accordion.Header>
                   <Accordion.Body>
                     <strong>Yes,</strong> certificates are awarded after
@@ -81,11 +76,12 @@ export default function Questions() {
           </Col>
 
           <Col lg={6}>
-            <div className="question-main">
+            <div className="question-main d-flex justify-content-center align-items-center">
               <div className="question-img">
                 <img
                   src="./assets/question/question.svg"
                   alt="FAQ Illustration"
+                  className="img-fluid"
                 />
               </div>
             </div>
